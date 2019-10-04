@@ -13,7 +13,7 @@ if (!isset($_SESSION['UsuarioID']) or ($_SESSION['UsuarioNivel'] < $nivel_necess
     // Destrói a sessão por segurança
     session_destroy();
     // Redireciona o visitante de volta pro login
-    header("Location: LandingPage");
+    header("Location: LandingPage.php");
     exit;
 } 
 

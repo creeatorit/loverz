@@ -5,7 +5,7 @@
         
         <div class="your-profile">
             <div class="ui-block-title ui-block-title-small">
-                <h6 class="title"><a href="YourAccount-AccountSettings">Meu Perfil</a></h6>
+                <h6 class="title"><a href="YourAccount-AccountSettings.php">Meu Perfil</a></h6>
             </div>
         
             <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -22,16 +22,16 @@
                     <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                         <ul class="your-profile-menu">
                             <li>
-                                <a href="YourAccount-PersonalInformation">Informações Pessoais</a>
+                                <a href="YourAccount-PersonalInformation.php">Informações Pessoais</a>
                             </li>
                             <li>
-                                <a href="YourAccount-AccountSettings">Configurações da Conta</a>
+                                <a href="YourAccount-AccountSettings.php">Configurações da Conta</a>
                             </li>
                             <li>
-                                <a href="YourAccount-ChangePassword">Alterar Senha</a>
+                                <a href="YourAccount-ChangePassword.php">Alterar Senha</a>
                             </li>
                             <li>
-                                <a href="YourAccount-HobbiesAndInterests">Hobbies e Interesses</a>
+                                <a href="YourAccount-HobbiesAndInterests.php">Hobbies e Interesses</a>
                             </li>
                             <!--
                             <li>

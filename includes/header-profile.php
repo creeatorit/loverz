@@ -308,7 +308,7 @@
 
 							<ul class="account-settings">
 								<li>
-									<a href="YourAccount-AccountSettings">
+									<a href="YourAccount-AccountSettings.php">
 
 										<svg class="olymp-menu-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-menu-icon"></use></svg>
 
@@ -325,7 +325,7 @@
 								</li>
 								-->
 								<li>
-									<a href="includes/Sair">
+									<a href="includes/logout.php">
 										<svg class="olymp-logout-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-logout-icon"></use></svg>
 
 										<span>Sair</span>
@@ -405,9 +405,9 @@
 					</div>
 				</div>
 				<?php if($_SESSION['UsuarioPerfil'] == '1') { ?>
-				<a href="YourAccount-AccountSettings" class="author-name fn">
+				<a href="YourAccount-AccountSettings.php" class="author-name fn">
 				<?php } if($_SESSION['UsuarioPerfil'] == '2') { ?>
-				<a href="ProfilePage" class="author-name fn">
+				<a href="ProfilePage.php" class="author-name fn">
 				<?php } ?>
 					<div class="author-title">
 						<?php echo $_SESSION['UsuarioNome'] ?> <svg class="olymp-dropdown-arrow-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon"></use></svg>

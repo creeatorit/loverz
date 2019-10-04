@@ -28,7 +28,7 @@ $stmt->execute();
 $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 if (count($users) != 1) {
-    echo "<script>alert('OPS! USUÁRIO OU SENHA INVÁLIDOS.');location.href='../LandingPage';</script>";
+    echo "<script>alert('OPS! USUÁRIO OU SENHA INVÁLIDOS.');location.href='../LandingPage.php';</script>";
     exit;
 } else {
 
@@ -44,17 +44,17 @@ if (count($users) != 1) {
     $_SESSION['UsuarioPerfil']        = $resultado['perfil_completo'];
 
     if($_SESSION['UsuarioNivel'] == '100') {
-        header("Location: ../ProfilePage");
+        header("Location: ../ProfilePage.php");
         exit;
     }
     if(($_SESSION['UsuarioConfirmado'] == '2') and ($_SESSION['UsuarioPerfil'] == '1'))
         {
-            header("Location: ../YourAccount-AccountSettings");
+            header("Location: ../YourAccount-AccountSettings.php");
             exit;
     }  
     if(($_SESSION['UsuarioNivel'] == '1') and ($_SESSION['UsuarioConfirmado'] == '2') and ($_SESSION['UsuarioPerfil'] == '2'))
         {
-            header("Location: ../ProfilePage");
+            header("Location: ../ProfilePage.php");
             exit;
     }
 }

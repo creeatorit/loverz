@@ -74,7 +74,7 @@ $msg .=  '
 <p>&nbsp;</p>
 <p><font color="#999999" face="Arial, Helvetica, sans-serif">Deseja confirmar 
   seu cadastro?</font></p>
-<p><a href="http://www.loverz.com.br/RegisterConfirmation" target="_blank"><img src="http://webapp137465.ip-50-116-30-45.cloudezapp.io/SendMail/images/botao_confirmar.fw.png" width="200" height="50" border="0"></a></p>
+<p><a href="http://www.loverz.com.br/RegisterConfirmationphp" target="_blank"><img src="http://webapp137465.ip-50-116-30-45.cloudezapp.io/SendMail/images/botao_confirmar.fw.png" width="200" height="50" border="0"></a></p>
 <p>&nbsp;</p>
 <p><font color="#333333" face="Arial, Helvetica, sans-serif">Abra&ccedil;os,</font></p>
 <p><font color="#333333" face="Arial, Helvetica, sans-serif">Equide Loverz</font></p>
@@ -142,6 +142,6 @@ $enviado = $mail->Send();
 $mail->ClearAllRecipients();
 $mail->ClearAttachments();
  
-echo "<script>location.href='../RegisterConfirmation';</script>";
+echo "<script>location.href='../RegisterConfirmation.php';</script>";
 //echo "<script>alert('CHAMADO CRIADO E ENVIADO POR E-MAIL!');location.href='../LandingPage';</script>";
 ?>

@@ -3,13 +3,13 @@
 <div class="fixed-sidebar">
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 	<?php if($_SESSION['UsuarioPerfil'] == '2') { ?>
-		<a href="ProfilePage" class="logo">
+		<a href="ProfilePage.php" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Loverz">
 			</div>
 		</a>
 		<?php }else{ ?>
-		<a href="YourAccount-AccountSettings" class="logo">
+		<a href="YourAccount-AccountSettings.php" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Loverz">
 			</div>
@@ -25,7 +25,7 @@
 				</li>
 				<?php if($_SESSION['UsuarioPerfil'] == '2') { ?>
 				<li>
-					<a href="ProfilePage">
+					<a href="ProfilePage.php">
 						<svg class="olymp-newsfeed-icon left-menu-icon" data-toggle="tooltip" data-placement="right"   data-original-title="FEED DE NOTÍCIAS"><use xlink:href="svg-icons/sprites/icons.svg#olymp-newsfeed-icon"></use></svg>
 					</a>
 				</li>
@@ -83,7 +83,7 @@
 
 	<div class="fixed-sidebar-left sidebar--large" id="sidebar-left-1">
 		<?php if($_SESSION['UsuarioPerfil'] == '2') { ?>
-		<a href="ProfilePage" class="logo">
+		<a href="ProfilePage.php" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Loverz">
 			</div>
@@ -92,7 +92,7 @@
 			</div>
 		</a>
 		<?php } else { ?>
-			<a href="YourAccount-AccountSettings" class="logo">
+			<a href="YourAccount-AccountSettings.php" class="logo">
 			<div class="img-wrap">
 				<img src="img/logo.png" alt="Loverz">
 			</div>
@@ -112,7 +112,7 @@
 				</li>
 				<?php if($_SESSION['UsuarioPerfil'] == '2') { ?>
 				<li>
-					<a href="ProfilePage">
+					<a href="ProfilePage.php">
 						<svg class="olymp-newsfeed-icon left-menu-icon" data-toggle="tooltip" data-placement="right"   data-original-title="NEWSFEED"><use xlink:href="svg-icons/sprites/icons.svg#olymp-newsfeed-icon"></use></svg>
 						<span class="left-menu-title">Feed de Notícias</span>
 					</a>
