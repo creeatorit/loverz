@@ -1,0 +1,28 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  #ErrorDocument 401 /401.php
+  #ErrorDocument 403 /403.php
+  #ErrorDocument 404 /404.php
+  #ErrorDocument 500 /500.php
+
+  # ALL USERS
+  RewriteRule ^LandingPage/?$ LandingPage.php [NC,L]
+  RewriteRule ^ProfilePage/?$ ProfilePage.php [NC,L]
+  RewriteRule ^YourAccount-AccountSettings/?$ YourAccount-AccountSettings.php [NC,L]
+  RewriteRule ^YourAccount-PersonalInformation/?$ YourAccount-PersonalInformation.php [NC,L]
+  RewriteRule ^YourAccount-ChangePassword/?$ YourAccount-ChangePassword.php [NC,L]
+  RewriteRule ^YourAccount-HobbiesAndInterests/?$ YourAccount-HobbiesAndInterests.php [NC,L]
+  RewriteRule ^RegisterConfirmation/?$ RegisterConfirmation.php [NC,L]
+  
+  RewriteRule ^includes/Validation/?$ includes/validation.php [NC,L]
+  
+  # ADMIN
+
+
+  # INCLUDES
+  RewriteRule ^includes/Validation/?$ includes/validation.php [NC,L]
+  RewriteRule ^includes/Sair/?$ includes/logout.php [NC,L]
+  
+
+</IfModule>
