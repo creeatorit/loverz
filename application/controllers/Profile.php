@@ -35,7 +35,7 @@ Class Profile extends MY_Controller {
       $data['active'] = 'cursos';
      }
      */
-
+     
     	$this->load->view('profile/index');
- 	}
+    }
 }
