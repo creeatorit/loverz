@@ -338,7 +338,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="<?php echo base_url('logout'); ?>">
 						<svg class="olymp-logout-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-logout-icon')?>"></use></svg>
 
 						<span>Log Out</span>
@@ -1290,481 +1290,7 @@
 </div>
 
 <!-- ... end Fixed Sidebar Right-Responsive -->
-
-
-<!-- Header-BP -->
-
-<header class="header" id="site-header">
-
-	<div class="page-title">
-		<h6>your account</h6>
-	</div>
-
-	<div class="header-content-wrapper">
-		<form class="search-bar w-search notification-list friend-requests">
-			<div class="form-group with-button">
-				<input class="form-control js-user-search" placeholder="Search here people or pages..." type="text">
-				<button>
-					<svg class="olymp-magnifying-glass-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon')?>"></use></svg>
-				</button>
-			</div>
-		</form>
-
-		<a href="#" class="link-find-friend">Find Friends</a>
-
-		<div class="control-block">
-
-			<div class="control-icon more has-items">
-				<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-				<div class="label-avatar bg-blue">6</div>
-
-				<div class="more-dropdown more-with-triangle triangle-top-center">
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">FRIEND REQUESTS</h6>
-						<a href="#">Find Friends</a>
-						<a href="#">Settings</a>
-					</div>
-
-					<div class="mCustomScrollbar" data-mcs-theme="dark">
-						<ul class="notification-list friend-requests">
-							<li>
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar55-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<a href="#" class="h6 notification-friend">Tamara Romanoff</a>
-									<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
-								</div>
-								<span class="notification-icon">
-									<a href="#" class="accept-request">
-										<span class="icon-add without-text">
-											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-										</span>
-									</a>
-
-									<a href="#" class="accept-request request-del">
-										<span class="icon-minus">
-											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-										</span>
-									</a>
-
-								</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-								</div>
-							</li>
-
-							<li>
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar56-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<a href="#" class="h6 notification-friend">Tony Stevens</a>
-									<span class="chat-message-item">4 Friends in Common</span>
-								</div>
-								<span class="notification-icon">
-									<a href="#" class="accept-request">
-										<span class="icon-add without-text">
-											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-										</span>
-									</a>
-
-									<a href="#" class="accept-request request-del">
-										<span class="icon-minus">
-											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-										</span>
-									</a>
-
-								</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-								</div>
-							</li>
-
-							<li class="accepted">
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar57-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									You and <a href="#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="#" class="notification-link">her wall</a>.
-								</div>
-								<span class="notification-icon">
-									<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-								</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
-								</div>
-							</li>
-
-							<li>
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar58-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<a href="#" class="h6 notification-friend">Stagg Clothing</a>
-									<span class="chat-message-item">9 Friends in Common</span>
-								</div>
-								<span class="notification-icon">
-									<a href="#" class="accept-request">
-										<span class="icon-add without-text">
-											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-										</span>
-									</a>
-
-									<a href="#" class="accept-request request-del">
-										<span class="icon-minus">
-											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-										</span>
-									</a>
-
-								</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-								</div>
-							</li>
-
-						</ul>
-					</div>
-
-					<a href="#" class="view-all bg-blue">Check all your Events</a>
-				</div>
-			</div>
-
-			<div class="control-icon more has-items">
-				<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
-				<div class="label-avatar bg-purple">2</div>
-
-				<div class="more-dropdown more-with-triangle triangle-top-center">
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">Chat / Messages</h6>
-						<a href="#">Mark all as read</a>
-						<a href="#">Settings</a>
-					</div>
-
-					<div class="mCustomScrollbar" data-mcs-theme="dark">
-						<ul class="notification-list chat-message">
-							<li class="message-unread">
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar59-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<a href="#" class="h6 notification-friend">Diana Jameson</a>
-									<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
-								</div>
-								<span class="notification-icon">
-									<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
-								</span>
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-								</div>
-							</li>
-
-							<li>
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar60-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<a href="#" class="h6 notification-friend">Jake Parker</a>
-									<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
-								</div>
-								<span class="notification-icon">
-									<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
-								</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-								</div>
-							</li>
-							<li>
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar61-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<a href="#" class="h6 notification-friend">Elaine Dreyfuss</a>
-									<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
-								</div>
-									<span class="notification-icon">
-										<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
-									</span>
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-								</div>
-							</li>
-
-							<li class="chat-group">
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar11-sm.jpg')?>" alt="author">
-									<img src="<?php echo base_url('assets/images/avatar12-sm.jpg')?>" alt="author">
-									<img src="<?php echo base_url('assets/images/avatar13-sm.jpg')?>" alt="author">
-									<img src="<?php echo base_url('assets/images/avatar10-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<a href="#" class="h6 notification-friend">You, Faye, Ed &amp; Jet +3</a>
-									<span class="last-message-author">Ed:</span>
-									<span class="chat-message-item">Yeah! Seems fine by me!</span>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
-								</div>
-									<span class="notification-icon">
-										<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
-									</span>
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-								</div>
-							</li>
-						</ul>
-					</div>
-
-					<a href="#" class="view-all bg-purple">View All Messages</a>
-				</div>
-			</div>
-
-			<div class="control-icon more has-items">
-				<svg class="olymp-thunder-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-thunder-icon')?>"></use></svg>
-
-				<div class="label-avatar bg-primary">8</div>
-
-				<div class="more-dropdown more-with-triangle triangle-top-center">
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">Notifications</h6>
-						<a href="#">Mark all as read</a>
-						<a href="#">Settings</a>
-					</div>
-
-					<div class="mCustomScrollbar" data-mcs-theme="dark">
-						<ul class="notification-list">
-							<li>
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar62-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a>.</div>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
-								</div>
-									<span class="notification-icon">
-										<svg class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
-									</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
-								</div>
-							</li>
-
-							<li class="un-read">
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar63-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<div>You and <a href="#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="#" class="notification-link">his wall</a>.</div>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
-								</div>
-									<span class="notification-icon">
-										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-									</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
-								</div>
-							</li>
-
-							<li class="with-comment-photo">
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar64-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<div><a href="#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="#" class="notification-link">photo</a>.</div>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
-								</div>
-									<span class="notification-icon">
-										<svg class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
-									</span>
-
-								<div class="comment-photo">
-									<img src="<?php echo base_url('assets/images/comment-photo1.jpg')?>" alt="photo">
-									<span>“She looks incredible in that outfit! We should see each...”</span>
-								</div>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
-								</div>
-							</li>
-
-							<li>
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar65-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<div><a href="#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="#" class="notification-link">Gotham Bar</a>.</div>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
-								</div>
-									<span class="notification-icon">
-										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
-									</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
-								</div>
-							</li>
-
-							<li>
-								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar66-sm.jpg')?>" alt="author">
-								</div>
-								<div class="notification-event">
-									<div><a href="#" class="h6 notification-friend">James Summers</a> commented on your new <a href="#" class="notification-link">profile status</a>.</div>
-									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
-								</div>
-									<span class="notification-icon">
-										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
-									</span>
-
-								<div class="more">
-									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
-									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
-								</div>
-							</li>
-						</ul>
-					</div>
-
-					<a href="#" class="view-all bg-primary">View All Notifications</a>
-				</div>
-			</div>
-
-			<div class="author-page author vcard inline-items more">
-				<div class="author-thumb">
-					<img alt="author" src="<?php echo base_url('assets/images/author-page.jpg')?>" class="avatar">
-					<span class="icon-status online"></span>
-					<div class="more-dropdown more-with-triangle">
-						<div class="mCustomScrollbar" data-mcs-theme="dark">
-							<div class="ui-block-title ui-block-title-small">
-								<h6 class="title">Your Account</h6>
-							</div>
-
-							<ul class="account-settings">
-								<li>
-									<a href="29-YourAccount-AccountSettings.html">
-
-										<svg class="olymp-menu-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>"></use></svg>
-
-										<span>Profile Settings</span>
-									</a>
-								</li>
-								<li>
-									<a href="36-FavPage-SettingsAndCreatePopup.html">
-										<svg class="olymp-star-icon left-menu-icon"  data-toggle="tooltip" data-placement="right"   data-original-title="FAV PAGE"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-star-icon')?>"></use></svg>
-
-										<span>Create Fav Page</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<svg class="olymp-logout-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-logout-icon')?>"></use></svg>
-
-										<span>Log Out</span>
-									</a>
-								</li>
-							</ul>
-
-							<div class="ui-block-title ui-block-title-small">
-								<h6 class="title">Chat Settings</h6>
-							</div>
-
-							<ul class="chat-settings">
-								<li>
-									<a href="#">
-										<span class="icon-status online"></span>
-										<span>Online</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="icon-status away"></span>
-										<span>Away</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="icon-status disconected"></span>
-										<span>Disconnected</span>
-									</a>
-								</li>
-
-								<li>
-									<a href="#">
-										<span class="icon-status status-invisible"></span>
-										<span>Invisible</span>
-									</a>
-								</li>
-							</ul>
-
-							<div class="ui-block-title ui-block-title-small">
-								<h6 class="title">Custom Status</h6>
-							</div>
-
-							<form class="form-group with-button custom-status">
-								<input class="form-control" placeholder="" type="text" value="Space Cowboy">
-
-								<button class="bg-purple">
-									<svg class="olymp-check-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-check-icon')?>"></use></svg>
-								</button>
-							</form>
-
-							<div class="ui-block-title ui-block-title-small">
-								<h6 class="title">About Olympus</h6>
-							</div>
-
-							<ul>
-								<li>
-									<a href="#">
-										<span>Terms and Conditions</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span>FAQs</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span>Careers</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span>Contact</span>
-									</a>
-								</li>
-							</ul>
-						</div>
-
-					</div>
-				</div>
-				<a href="02-ProfilePage.html" class="author-name fn">
-					<div class="author-title">
-						James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon')?>"></use></svg>
-					</div>
-					<span class="author-subtitle">SPACE COWBOY</span>
-				</a>
-			</div>
-
-		</div>
-	</div>
-
-</header>
-
-<!-- ... end Header-BP -->
-
+<?php $this->load->view('components/navbar-top.php'); ?>
 
 <!-- Responsive Header-BP -->
 
@@ -2165,7 +1691,6 @@
 
 
 <!-- Your Account Personal Information -->
-
 <div class="container">
 	<div class="row">
 		<div class="col col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-12">
@@ -2178,44 +1703,43 @@
 					
 					<!-- Personal Information Form  -->
 					
-					<form>
+					<form method="POST" action="<?php echo base_url();?>">
 						<div class="row">
 					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
 									<label class="control-label">First Name</label>
-									<input class="form-control" placeholder="" type="text" value="James">
+                                                                        <input class="form-control" placeholder="" type="text" value="<?php echo $user->nome; ?>" maxlength="100" name="nome" />
 								</div>
 					
 								<div class="form-group label-floating">
 									<label class="control-label">Your Email</label>
-									<input class="form-control" placeholder="" type="email" value="jspiegel@yourmail.com">
+									<input class="form-control" placeholder="" type="email" value="<?php echo $user->email; ?>" name="email" />
 								</div>
-					
 								<div class="form-group date-time-picker label-floating">
 									<label class="control-label">Your Birthday</label>
-									<input name="datetimepicker" value="10/24/1984" />
+									<input name="datetimepicker" value="<?php echo implode("/", array_reverse(explode("-", $user->nascimento)));?>" />
 									<span class="input-group-addon">
-															<svg class="olymp-month-calendar-icon icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-month-calendar-icon')?>"></use></svg>
-														</span>
+                                                                            <svg class="olymp-month-calendar-icon icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-month-calendar-icon')?>"></use></svg>
+									</span>
 								</div>
 							</div>
 					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
 									<label class="control-label">Last Name</label>
-									<input class="form-control" placeholder="" type="text" value="Spiegel">
+									<input class="form-control" placeholder="" type="text" value="<?php echo $user->sobrenome; ?>" name="sobrenome" />
 								</div>
 					
 								<div class="form-group label-floating">
 									<label class="control-label">Your Website</label>
-									<input class="form-control" placeholder="" type="email" value="daydreamzagency.com">
+									<input class="form-control" placeholder="" type="text" value="<?php echo $user->website; ?>" name="website" />
 								</div>
 					
 					
-								<div class="form-group label-floating is-empty">
+								<div class="form-group label-floating">
 									<label class="control-label">Your Phone Number</label>
-									<input class="form-control" placeholder="" type="text">
+									<input class="form-control" placeholder="" type="tel" value="<?php echo $user->telefone; ?>" name="telefone" />
 								</div>
 							</div>
 					
@@ -2249,14 +1773,14 @@
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
 									<label class="control-label">Write a little description about you</label>
-									<textarea class="form-control" placeholder="">Hi, I’m James, I’m 36 and I work as a Digital Designer for the  “Daydreams” Agency in Pier 56</textarea>
+									<textarea class="form-control" placeholder="Fale um pouco sobre você..."><?php echo $user->sobre; ?></textarea>
 								</div>
 					
 								<div class="form-group label-floating is-select">
 									<label class="control-label">Your Gender</label>
 									<select class="selectpicker form-control">
-										<option value="MA">Male</option>
-										<option value="FE">Female</option>
+										<option value="MA" <?php echo $user->sexo == "MA" ? "selected":""; ?>>Masculino</option>
+										<option value="FE" <?php echo $user->sexo == "FE" ? "selected":""; ?>>Feminino</option>
 									</select>
 								</div>
 					
@@ -2266,21 +1790,27 @@
 								</div>
 							</div>
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating is-empty">
+								<div class="form-group label-floating">
 									<label class="control-label">Your Birthplace</label>
-									<input class="form-control" placeholder="" type="text">
+                                                                        <input class="form-control" placeholder="" type="text" value="<?php echo $user->local_nascimento; ?>" name="local_nascimento" />
 								</div>
 					
 								<div class="form-group label-floating">
 									<label class="control-label">Your Occupation</label>
-									<input class="form-control" placeholder="" type="text" value="UI/UX Designer">
+									<input class="form-control" placeholder="" type="text" value="<?php echo $user->profissao; ?>" name="profissao" />
 								</div>
 					
 								<div class="form-group label-floating is-select">
 									<label class="control-label">Status</label>
-									<select class="selectpicker form-control">
-										<option value="MA">Married</option>
-										<option value="FE">Not Married</option>
+									<select class="selectpicker form-control" name="estado_civil">
+                                                                            <option disabled selected>Selecione</option>
+                                                                            <option>Solteiro (a)</option>
+                                                                            <option>Casado (a)</option>
+                                                                            <option>Viúvo (a)</option>
+                                                                            <option>Separado (a)</option>
+                                                                            <option>Divorciado (a)</option>
+                                                                            <option>União Estável</option>
+                                                                            <option>Outro</option>
 									</select>
 								</div>
 					
@@ -2292,12 +1822,12 @@
 							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 								<div class="form-group with-icon label-floating">
 									<label class="control-label">Your Facebook Account</label>
-									<input class="form-control" type="text" value="www.facebook.com/james-spiegel95321">
+									<input class="form-control" type="text" value="<?php echo $user->link_facebook; ?>">
 									<i class="fab fa-facebook-f c-facebook" aria-hidden="true"></i>
 								</div>
 								<div class="form-group with-icon label-floating">
 									<label class="control-label">Your Twitter Account</label>
-									<input class="form-control" type="text" value="www.twitter.com/james_spiegelOK">
+									<input class="form-control" type="text" value="<?php echo $user->link_twitter; ?>">
 									<i class="fab fa-twitter c-twitter" aria-hidden="true"></i>
 								</div>
 								<div class="form-group with-icon label-floating is-empty">

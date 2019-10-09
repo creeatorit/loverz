@@ -8,12 +8,6 @@ Class Authentication extends CI_Controller {
 	{
 		parent::__construct();
 
-		// Load form helper library
-		$this->load->helper('form');
-
-		// Load form validation
-		$this->load->library('form_validation');
-
 		// Load model
 		$this->load->model('Usuarios_model');
 		
@@ -33,9 +27,11 @@ Class Authentication extends CI_Controller {
 		}
 
 		// Validation form
-		$this->form_validation->set_rules('nome', 'Nome', 'trim|required|min_length[3]|max_length[100]');
+		$this->form_validation->set_rules('nome', 'Nome', 'trim|required|min_length[3]|max_length[50]');
+		$this->form_validation->set_rules('sobrenome', 'Sobrenome', 'trim|required|min_length[3]|max_length[50]');
 		$this->form_validation->set_rules('email', 'Email', 'trim|required|min_length[5]|max_length[100]');
-		$this->form_validation->set_rules('senha', 'Senha', 'trim|required|min_length[3]|max_length[100]');
+		$this->form_validation->set_rules('senha', 'Senha', 'trim|required|min_length[3]|max_length[50]');
+		$this->form_validation->set_rules('estado_civil', 'Estado civil', 'trim|required');
 
 		if ($this->form_validation->run() == FALSE) {
 			// Se exitir algum erro de validação, transforma em json para recuperar no jquery
@@ -47,6 +43,7 @@ Class Authentication extends CI_Controller {
 			// Verifica se o e-mail enviado, já consta no banco de dados
 			$data = array(
 				'nome' => $this->input->post('nome'),
+                                'sobrenome' => $this->input->post('sobrenome'),
 				'email' => $this->input->post('email'),
 				'senha' => $this->input->post('senha')
 			);
@@ -122,6 +119,6 @@ Class Authentication extends CI_Controller {
 	public function Logout()
 	{
 		$this->session->unset_userdata('logged');
-		redirect(base_url('admin/dashboard'));
+		redirect(base_url('profile'));
 	}
 }

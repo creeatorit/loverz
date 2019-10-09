@@ -14,7 +14,7 @@ class MY_Controller extends CI_Controller {
 		 parent::__construct();
 
 		 if ($this->session->userdata('logged') != 1) {
-			 //redirect(base_url('index'));
+			 redirect(base_url());
 		 }
 	 }
 }

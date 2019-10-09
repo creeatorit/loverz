@@ -260,9 +260,9 @@
 				<div class="tab-content">
 					<div class="tab-pane active" id="home" role="tabpanel" data-mh="log-tab">
 						<div class="title h6">Apelido do Padrinho</div>
-						<form class="content" method="POST">
+						<form class="content" method="POST" action="<?php echo base_url('register'); ?>">
 							<div class="row">
-								<!--
+								
 								<div class="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
 									<div class="form-group label-floating">
 										<label class="control-label">First Name</label>
@@ -275,7 +275,7 @@
 										<input class="form-control" placeholder="" type="text">
 									</div>
 								</div>
-								-->
+								
 								<div class="col col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 									<div class="form-group label-floating">
 										<label class="control-label">E-mail</label>

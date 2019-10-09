@@ -7,18 +7,10 @@ Class Profile extends MY_Controller {
    public function __construct() {
 
       parent::__construct();
-
-      /*
-      // Load form helper library
-      $this->load->helper('form');
-      $this->load->helper('url');
-
-      // Load form validation
-      $this->load->library('form_validation');
-
+      
       // Load model
-      $this->load->model('Cursos_model', 'model');
-      */
+      $this->load->model('Usuarios_model');
+      $this->load->library('usuarios');
    }
 
    /**
@@ -32,5 +24,16 @@ Class Profile extends MY_Controller {
     
     public function setting() {
         $this->load->view('profile/setting');
+    }
+    
+    public function personal_information() {
+        
+        
+        $this->usuarios->setNome("Rafael");
+        echo $this->usuarios->getNome();exit;
+        
+        $data['user'] = $this->Usuarios_model->get($this->session->userdata('userID'));
+        $this->load->view('profile/personal_information', $data);
+        
     }
 }
