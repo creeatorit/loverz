@@ -26,16 +26,11 @@ Class Profile extends MY_Controller {
     * @return view
     */
    public function index() {
-
-   	/*
-      // Load model módulos
-      $this->load->model('Modulos_model');
-      
-      $data['title'] = "Cursos";
-      $data['active'] = 'cursos';
-     }
-     */
      
     	$this->load->view('profile/index');
+    }
+    
+    public function setting() {
+        $this->load->view('profile/setting');
     }
 }
