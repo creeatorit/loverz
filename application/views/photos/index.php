@@ -3,7 +3,6 @@
 <body class="page-has-left-panels page-has-right-panels">
 
 
-
 <!-- Preloader -->
 
 <div id="hellopreloader">
@@ -38,7 +37,7 @@
 <div class="fixed-sidebar">
 	<div class="fixed-sidebar-left sidebar--small" id="sidebar-left">
 
-		<a href="<?php echo base_url();?>" class="logo">
+		<a href="02-ProfilePage.html" class="logo">
 			<div class="img-wrap">
 				<img src="<?php echo base_url('assets/images/logo.png')?>" alt="Olympus">
 			</div>
@@ -119,7 +118,7 @@
 			<ul class="left-menu">
 				<li>
 					<a href="#" class="js-sidebar-open">
-						<svg class="olymp-close-icon left-menu-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+						<svg class="olymp-close-icon left-menu-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
 						<span class="left-menu-title">Collapse Menu</span>
 					</a>
 				</li>
@@ -238,7 +237,7 @@
 					</div>
 					<a href="02-ProfilePage.html" class="author-name fn">
 						<div class="author-title">
-							James Spiegel <svg class="olymp-dropdown-arrow-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon')?>"></use></svg>
+							James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon')?>"></use></svg>
 						</div>
 						<span class="author-subtitle">SPACE COWBOY</span>
 					</a>
@@ -252,7 +251,7 @@
 			<ul class="left-menu">
 				<li>
 					<a href="#" class="js-sidebar-open">
-						<svg class="olymp-close-icon left-menu-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+						<svg class="olymp-close-icon left-menu-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
 						<span class="left-menu-title">Collapse Menu</span>
 					</a>
 				</li>
@@ -326,7 +325,7 @@
 				<li>
 					<a href="#">
 
-						<svg class="olymp-menu-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>"></use></svg>
+						<svg class="olymp-menu-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>"></use></svg>
 
 						<span>Profile Settings</span>
 					</a>
@@ -340,7 +339,7 @@
 				</li>
 				<li>
 					<a href="#">
-						<svg class="olymp-logout-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-logout-icon')?>"></use></svg>
+						<svg class="olymp-logout-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-logout-icon')?>"></use></svg>
 
 						<span>Log Out</span>
 					</a>
@@ -463,12 +462,12 @@
 
 		<div class="search-friend inline-items">
 			<a href="#" class="js-sidebar-open">
-				<svg class="olymp-menu-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>')?>"></use></svg>
+				<svg class="olymp-menu-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>"></use></svg>
 			</a>
 		</div>
 
 		<a href="#" class="olympus-chat inline-items js-chat-open">
-			<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+			<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 		</a>
 
 	</div>
@@ -495,19 +494,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -526,19 +525,19 @@
 						<span class="status">AT WORK!</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -559,19 +558,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -593,19 +592,19 @@
 						<span class="status">AWAY</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -627,19 +626,19 @@
 						<span class="status">OFFLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -668,19 +667,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -707,19 +706,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -739,19 +738,19 @@
 						<span class="status">AWAY</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -770,19 +769,19 @@
 						<span class="status">INVISIBLE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -800,19 +799,19 @@
 						<span class="status">AWAY</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -830,19 +829,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -858,18 +857,18 @@
 			</form>
 
 			<a href="29-YourAccount-AccountSettings.html" class="settings">
-				<svg class="olymp-settings-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-settings-icon')?>"></use></svg>
+				<svg class="olymp-settings-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-settings-icon')?>"></use></svg>
 			</a>
 
 			<a href="#" class="js-sidebar-open">
-				<svg class="olymp-close-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+				<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
 			</a>
 		</div>
 
 		<a href="#" class="olympus-chat inline-items js-chat-open">
 
 			<h6 class="olympus-chat-title">OLYMPUS CHAT</h6>
-			<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+			<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 		</a>
 
 	</div>
@@ -884,8 +883,8 @@
 
 	<div class="fixed-sidebar-right sidebar--small">
 		<a href="#" class="js-sidebar-open">
-			<svg class="olymp-menu-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>"></use></svg>
-			<svg class="olymp-close-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+			<svg class="olymp-menu-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>"></use></svg>
+			<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
 		</a>
 	</div>
 
@@ -910,19 +909,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -941,19 +940,19 @@
 						<span class="status">AT WORK!</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -974,19 +973,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1008,19 +1007,19 @@
 						<span class="status">AWAY</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1042,19 +1041,19 @@
 						<span class="status">OFFLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1083,19 +1082,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1122,19 +1121,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1154,19 +1153,19 @@
 						<span class="status">AWAY</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1185,19 +1184,19 @@
 						<span class="status">INVISIBLE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1215,19 +1214,19 @@
 						<span class="status">AWAY</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1245,19 +1244,19 @@
 						<span class="status">ONLINE</span>
 					</div>
 
-					<div class="more"><svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 
 						<ul class="more-icons">
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="START CONVERSATION" class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="ADD TO CONVERSATION" class="olymp-add-to-conversation-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-add-to-conversation-icon')?>"></use></svg>
 							</li>
 
 							<li>
-								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
+								<svg data-toggle="tooltip" data-placement="top" data-original-title="BLOCK FROM CHAT" class="olymp-block-from-chat-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-block-from-chat-icon')?>"></use></svg>
 							</li>
 						</ul>
 
@@ -1273,18 +1272,18 @@
 			</form>
 
 			<a href="29-YourAccount-AccountSettings.html" class="settings">
-				<svg class="olymp-settings-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-settings-icon')?>"></use></svg>
+				<svg class="olymp-settings-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-settings-icon')?>"></use></svg>
 			</a>
 
 			<a href="#" class="js-sidebar-open">
-				<svg class="olymp-close-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+				<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
 			</a>
 		</div>
 
 		<a href="#" class="olympus-chat inline-items js-chat-open">
 
 			<h6 class="olympus-chat-title">OLYMPUS CHAT</h6>
-			<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+			<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 		</a>
 	</div>
 
@@ -1298,7 +1297,7 @@
 <header class="header" id="site-header">
 
 	<div class="page-title">
-		<h6>your account</h6>
+		<h6>Profile Page</h6>
 	</div>
 
 	<div class="header-content-wrapper">
@@ -1306,7 +1305,7 @@
 			<div class="form-group with-button">
 				<input class="form-control js-user-search" placeholder="Search here people or pages..." type="text">
 				<button>
-					<svg class="olymp-magnifying-glass-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon')?>"></use></svg>
+					<svg class="olymp-magnifying-glass-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon')?>"></use></svg>
 				</button>
 			</div>
 		</form>
@@ -1316,7 +1315,7 @@
 		<div class="control-block">
 
 			<div class="control-icon more has-items">
-				<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+				<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 				<div class="label-avatar bg-blue">6</div>
 
 				<div class="more-dropdown more-with-triangle triangle-top-center">
@@ -1330,29 +1329,29 @@
 						<ul class="notification-list friend-requests">
 							<li>
 								<div class="author-thumb">
-									<img src="<?php echo base_url('assets/images/avatar55-sm.jpg')?>')?>" alt="author">
+									<img src="<?php echo base_url('assets/images/avatar55-sm.jpg')?>" alt="author">
 								</div>
 								<div class="notification-event">
 									<a href="#" class="h6 notification-friend">Tamara Romanoff</a>
 									<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
 								</div>
-								<span class="notification-icon')?>">
+								<span class="notification-icon">
 									<a href="#" class="accept-request">
 										<span class="icon-add without-text">
-											<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 										</span>
 									</a>
 
 									<a href="#" class="accept-request request-del">
 										<span class="icon-minus">
-											<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 										</span>
 									</a>
 
 								</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 								</div>
 							</li>
 
@@ -1364,23 +1363,23 @@
 									<a href="#" class="h6 notification-friend">Tony Stevens</a>
 									<span class="chat-message-item">4 Friends in Common</span>
 								</div>
-								<span class="notification-icon')?>">
+								<span class="notification-icon">
 									<a href="#" class="accept-request">
 										<span class="icon-add without-text">
-											<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 										</span>
 									</a>
 
 									<a href="#" class="accept-request request-del">
 										<span class="icon-minus">
-											<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 										</span>
 									</a>
 
 								</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 								</div>
 							</li>
 
@@ -1391,12 +1390,12 @@
 								<div class="notification-event">
 									You and <a href="#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="#" class="notification-link">her wall</a>.
 								</div>
-								<span class="notification-icon')?>">
-									<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+								<span class="notification-icon">
+									<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 								</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 								</div>
 							</li>
@@ -1409,23 +1408,23 @@
 									<a href="#" class="h6 notification-friend">Stagg Clothing</a>
 									<span class="chat-message-item">9 Friends in Common</span>
 								</div>
-								<span class="notification-icon')?>">
+								<span class="notification-icon">
 									<a href="#" class="accept-request">
 										<span class="icon-add without-text">
-											<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 										</span>
 									</a>
 
 									<a href="#" class="accept-request request-del">
 										<span class="icon-minus">
-											<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 										</span>
 									</a>
 
 								</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 								</div>
 							</li>
 
@@ -1437,7 +1436,7 @@
 			</div>
 
 			<div class="control-icon more has-items">
-				<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+				<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 				<div class="label-avatar bg-purple">2</div>
 
 				<div class="more-dropdown more-with-triangle triangle-top-center">
@@ -1458,11 +1457,11 @@
 									<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
-								<span class="notification-icon')?>">
-									<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+								<span class="notification-icon">
+									<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 								</span>
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 								</div>
 							</li>
 
@@ -1475,12 +1474,12 @@
 									<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
-								<span class="notification-icon')?>">
-									<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+								<span class="notification-icon">
+									<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 								</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 								</div>
 							</li>
 							<li>
@@ -1492,11 +1491,11 @@
 									<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
 								</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 									</span>
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 								</div>
 							</li>
 
@@ -1513,11 +1512,11 @@
 									<span class="chat-message-item">Yeah! Seems fine by me!</span>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
 								</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 									</span>
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 								</div>
 							</li>
 						</ul>
@@ -1528,7 +1527,7 @@
 			</div>
 
 			<div class="control-icon more has-items">
-				<svg class="olymp-thunder-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-thunder-icon')?>"></use></svg>
+				<svg class="olymp-thunder-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-thunder-icon')?>"></use></svg>
 
 				<div class="label-avatar bg-primary">8</div>
 
@@ -1549,12 +1548,12 @@
 									<div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 								</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 									</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 								</div>
 							</li>
@@ -1567,12 +1566,12 @@
 									<div>You and <a href="#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="#" class="notification-link">his wall</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
 								</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 									</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 								</div>
 							</li>
@@ -1585,8 +1584,8 @@
 									<div><a href="#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="#" class="notification-link">photo</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
 								</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 									</span>
 
 								<div class="comment-photo">
@@ -1595,7 +1594,7 @@
 								</div>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 								</div>
 							</li>
@@ -1608,12 +1607,12 @@
 									<div><a href="#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="#" class="notification-link">Gotham Bar</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
 								</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 									</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 								</div>
 							</li>
@@ -1626,12 +1625,12 @@
 									<div><a href="#" class="h6 notification-friend">James Summers</a> commented on your new <a href="#" class="notification-link">profile status</a>.</div>
 									<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
 								</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-heart-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
 									</span>
 
 								<div class="more">
-									<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+									<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 									<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 								</div>
 							</li>
@@ -1644,7 +1643,7 @@
 
 			<div class="author-page author vcard inline-items more">
 				<div class="author-thumb">
-					<img alt="author" src="<?php echo base_url('assets/images/author-page.jpg" class="avatar">
+					<img alt="author" src="<?php echo base_url('assets/images/author-page.jpg')?>" class="avatar">
 					<span class="icon-status online"></span>
 					<div class="more-dropdown more-with-triangle">
 						<div class="mCustomScrollbar" data-mcs-theme="dark">
@@ -1656,7 +1655,7 @@
 								<li>
 									<a href="29-YourAccount-AccountSettings.html">
 
-										<svg class="olymp-menu-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>"></use></svg>
+										<svg class="olymp-menu-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-menu-icon')?>"></use></svg>
 
 										<span>Profile Settings</span>
 									</a>
@@ -1670,7 +1669,7 @@
 								</li>
 								<li>
 									<a href="#">
-										<svg class="olymp-logout-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-logout-icon')?>"></use></svg>
+										<svg class="olymp-logout-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-logout-icon')?>"></use></svg>
 
 										<span>Log Out</span>
 									</a>
@@ -1717,7 +1716,7 @@
 								<input class="form-control" placeholder="" type="text" value="Space Cowboy">
 
 								<button class="bg-purple">
-									<svg class="olymp-check-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-check-icon')?>"></use></svg>
+									<svg class="olymp-check-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-check-icon')?>"></use></svg>
 								</button>
 							</form>
 
@@ -1753,7 +1752,7 @@
 				</div>
 				<a href="02-ProfilePage.html" class="author-name fn">
 					<div class="author-title">
-						James Spiegel <svg class="olymp-dropdown-arrow-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon')?>"></use></svg>
+						James Spiegel <svg class="olymp-dropdown-arrow-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon')?>"></use></svg>
 					</div>
 					<span class="author-subtitle">SPACE COWBOY</span>
 				</a>
@@ -1776,7 +1775,7 @@
 			<li class="nav-item">
 				<a class="nav-link" data-toggle="tab" href="#request" role="tab">
 					<div class="control-icon has-items">
-						<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+						<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 						<div class="label-avatar bg-blue">6</div>
 					</div>
 				</a>
@@ -1785,7 +1784,7 @@
 			<li class="nav-item">
 				<a class="nav-link" data-toggle="tab" href="#chat" role="tab">
 					<div class="control-icon has-items">
-						<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+						<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 						<div class="label-avatar bg-purple">2</div>
 					</div>
 				</a>
@@ -1794,7 +1793,7 @@
 			<li class="nav-item">
 				<a class="nav-link" data-toggle="tab" href="#notification" role="tab">
 					<div class="control-icon has-items">
-						<svg class="olymp-thunder-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-thunder-icon')?>"></use></svg>
+						<svg class="olymp-thunder-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-thunder-icon')?>"></use></svg>
 						<div class="label-avatar bg-primary">8</div>
 					</div>
 				</a>
@@ -1802,8 +1801,8 @@
 
 			<li class="nav-item">
 				<a class="nav-link" data-toggle="tab" href="#search" role="tab">
-					<svg class="olymp-magnifying-glass-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon')?>"></use></svg>
-					<svg class="olymp-close-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+					<svg class="olymp-magnifying-glass-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon')?>"></use></svg>
+					<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
 				</a>
 			</li>
 		</ul>
@@ -1829,23 +1828,23 @@
 							<a href="#" class="h6 notification-friend">Tamara Romanoff</a>
 							<span class="chat-message-item">Mutual Friend: Sarah Hetfield</span>
 						</div>
-									<span class="notification-icon')?>">
+									<span class="notification-icon">
 										<a href="#" class="accept-request">
 											<span class="icon-add without-text">
-												<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+												<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 											</span>
 										</a>
 
 										<a href="#" class="accept-request request-del">
 											<span class="icon-minus">
-												<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+												<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 											</span>
 										</a>
 
 									</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 						</div>
 					</li>
 					<li>
@@ -1856,23 +1855,23 @@
 							<a href="#" class="h6 notification-friend">Tony Stevens</a>
 							<span class="chat-message-item">4 Friends in Common</span>
 						</div>
-									<span class="notification-icon')?>">
+									<span class="notification-icon">
 										<a href="#" class="accept-request">
 											<span class="icon-add without-text">
-												<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+												<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 											</span>
 										</a>
 
 										<a href="#" class="accept-request request-del">
 											<span class="icon-minus">
-												<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+												<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 											</span>
 										</a>
 
 									</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 						</div>
 					</li>
 					<li class="accepted">
@@ -1882,12 +1881,12 @@
 						<div class="notification-event">
 							You and <a href="#" class="h6 notification-friend">Mary Jane Stark</a> just became friends. Write on <a href="#" class="notification-link">her wall</a>.
 						</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 									</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 							<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 						</div>
 					</li>
@@ -1899,23 +1898,23 @@
 							<a href="#" class="h6 notification-friend">Stagg Clothing</a>
 							<span class="chat-message-item">9 Friends in Common</span>
 						</div>
-									<span class="notification-icon')?>">
+									<span class="notification-icon">
 										<a href="#" class="accept-request">
 											<span class="icon-add without-text">
-												<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+												<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 											</span>
 										</a>
 
 										<a href="#" class="accept-request request-del">
 											<span class="icon-minus">
-												<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+												<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 											</span>
 										</a>
 
 									</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 						</div>
 					</li>
 				</ul>
@@ -1943,11 +1942,11 @@
 							<span class="chat-message-item">Hi James! It’s Diana, I just wanted to let you know that we have to reschedule...</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 									</span>
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 						</div>
 					</li>
 
@@ -1960,12 +1959,12 @@
 							<span class="chat-message-item">Great, I’ll see you tomorrow!.</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
-									<span class="notification-icon')?>">
-										<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+									<span class="notification-icon">
+										<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 									</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 						</div>
 					</li>
 					<li>
@@ -1977,11 +1976,11 @@
 							<span class="chat-message-item">We’ll have to check that at the office and see if the client is on board with...</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 9:56pm</time></span>
 						</div>
-										<span class="notification-icon')?>">
-											<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+										<span class="notification-icon">
+											<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 										</span>
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 						</div>
 					</li>
 
@@ -1998,11 +1997,11 @@
 							<span class="chat-message-item">Yeah! Seems fine by me!</span>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 16th at 10:23am</time></span>
 						</div>
-										<span class="notification-icon')?>">
-											<svg class="olymp-chat---messages-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+										<span class="notification-icon">
+											<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
 										</span>
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 						</div>
 					</li>
 				</ul>
@@ -2030,12 +2029,12 @@
 							<div><a href="#" class="h6 notification-friend">Mathilda Brinker</a> commented on your new <a href="#" class="notification-link">profile status</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">4 hours ago</time></span>
 						</div>
-										<span class="notification-icon')?>">
-											<svg class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+										<span class="notification-icon">
+											<svg class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 										</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 							<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 						</div>
 					</li>
@@ -2048,12 +2047,12 @@
 							<div>You and <a href="#" class="h6 notification-friend">Nicholas Grissom</a> just became friends. Write on <a href="#" class="notification-link">his wall</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">9 hours ago</time></span>
 						</div>
-										<span class="notification-icon')?>">
-											<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+										<span class="notification-icon">
+											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 										</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 							<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 						</div>
 					</li>
@@ -2066,8 +2065,8 @@
 							<div><a href="#" class="h6 notification-friend">Sarah Hetfield</a> commented on your <a href="#" class="notification-link">photo</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">Yesterday at 5:32am</time></span>
 						</div>
-										<span class="notification-icon')?>">
-											<svg class="olymp-comments-post-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+										<span class="notification-icon">
+											<svg class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
 										</span>
 
 						<div class="comment-photo">
@@ -2076,7 +2075,7 @@
 						</div>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 							<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 						</div>
 					</li>
@@ -2089,12 +2088,12 @@
 							<div><a href="#" class="h6 notification-friend">Green Goo Rock</a> invited you to attend to his event Goo in <a href="#" class="notification-link">Gotham Bar</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 5th at 6:43pm</time></span>
 						</div>
-										<span class="notification-icon')?>">
-											<svg class="olymp-happy-face-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+										<span class="notification-icon">
+											<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
 										</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 							<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 						</div>
 					</li>
@@ -2107,12 +2106,12 @@
 							<div><a href="#" class="h6 notification-friend">James Summers</a> commented on your new <a href="#" class="notification-link">profile status</a>.</div>
 							<span class="notification-date"><time class="entry-date updated" datetime="2004-07-24T18:18">March 2nd at 8:29pm</time></span>
 						</div>
-										<span class="notification-icon')?>">
-											<svg class="olymp-heart-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+										<span class="notification-icon">
+											<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
 										</span>
 
 						<div class="more">
-							<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+							<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 							<svg class="olymp-little-delete"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 						</div>
 					</li>
@@ -2141,206 +2140,2084 @@
 </header>
 
 <!-- ... end Responsive Header-BP -->
-<div class="header-spacer header-spacer-small"></div>
-
-<!-- Main Header Account -->
-
-<div class="main-header">
-	<div class="content-bg-wrap bg-account"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col col-lg-8 m-auto col-md-8 col-sm-12 col-12">
-				<div class="main-header-content">
-					<h1>Your Account Dashboard</h1>
-					<p>Welcome to your account dashboard! Here you’ll find everything you need to change your profile
-	information, settings, read notifications and requests, view your latest messages, change your pasword and much
-	more! Also you can create or manage your own favourite page, have fun!</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<img class="img-bottom" src="<?php echo base_url('assets/images/account-bottom.png')?>" alt="friends">
-</div>
-
-<!-- ... end Main Header Account -->
+<div class="header-spacer"></div>
 
 
 
-<!-- Your Account Personal Information -->
+<!-- Top Header-Profile -->
 
 <div class="container">
 	<div class="row">
-		<div class="col col-xl-9 order-xl-2 col-lg-9 order-lg-2 col-md-12 order-md-1 col-sm-12 col-12">
+		<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
 			<div class="ui-block">
-				<div class="ui-block-title">
-					<h6 class="title">Account Settings</h6>
-				</div>
-				<div class="ui-block-content">
-
-					
-					<!-- Personal Account Settings Form -->
-					
-					<form>
+				<div class="top-header">
+					<div class="top-header-thumb">
+						<img src="<?php echo base_url('assets/images/top-header1.jpg')?>" alt="nature">
+					</div>
+					<div class="profile-section">
 						<div class="row">
-					
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating is-select">
-									<label class="control-label">Who Can Friend You?</label>
-									<select class="selectpicker form-control">
-										<option value="EO">Everyone</option>
-										<option value="NO">No One</option>
-									</select>
-								</div>
+							<div class="col col-lg-5 col-md-5 col-sm-12 col-12">
+								<ul class="profile-menu">
+									<li>
+										<a href="02-ProfilePage.html" class="active">Timeline</a>
+									</li>
+									<li>
+										<a href="05-ProfilePage-About.html">About</a>
+									</li>
+									<li>
+										<a href="06-ProfilePage.html">Friends</a>
+									</li>
+								</ul>
 							</div>
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<div class="form-group label-floating is-select">
-									<label class="control-label">Who Can View Your Posts</label>
-									<select class="selectpicker form-control">
-										<option value="US">Friends Only</option>
-										<option value="EO">Everyone</option>
-									</select>
-								</div>
-							</div>
-					
-							<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-								<div class="description-toggle">
-									<div class="description-toggle-content">
-										<div class="h6">Notifications Sound</div>
-										<p>A sound will be played each time you receive a new activity notification</p>
-									</div>
-					
-									<div class="togglebutton">
-										<label>
-											<input type="checkbox" checked="">
-										</label>
-									</div>
-								</div>
-								<div class="description-toggle">
-									<div class="description-toggle-content">
-										<div class="h6">Notifications Email</div>
-										<p>We’ll send you an email to your account each time you receive a new activity notification</p>
-									</div>
-					
-									<div class="togglebutton">
-										<label>
-											<input type="checkbox" checked="">
-										</label>
-									</div>
-								</div>
-								<div class="description-toggle">
-									<div class="description-toggle-content">
-										<div class="h6">Friend’s Birthdays</div>
-										<p>Choose wheather or not receive notifications about your friend’s birthdays on your newsfeed</p>
-									</div>
-					
-									<div class="togglebutton">
-										<label>
-											<input type="checkbox" checked="">
-										</label>
-									</div>
-								</div>
-								<div class="description-toggle">
-									<div class="description-toggle-content">
-										<div class="h6">Chat Message Sound</div>
-										<p>A sound will be played each time you receive a new message on an inactive chat window</p>
-									</div>
-					
-									<div class="togglebutton">
-										<label>
-											<input type="checkbox" checked="">
-										</label>
-									</div>
-								</div>
-							</div>
-					
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<button class="btn btn-secondary btn-lg full-width">Restore all Attributes</button>
-							</div>
-							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-								<button class="btn btn-primary btn-lg full-width">Save all Changes</button>
+							<div class="col col-lg-5 ml-auto col-md-5 col-sm-12 col-12">
+								<ul class="profile-menu">
+									<li>
+										<a href="07-ProfilePage-Photos.html">Photos</a>
+									</li>
+									<li>
+										<a href="09-ProfilePage-Videos.html">Videos</a>
+									</li>
+									<li>
+										<div class="more">
+											<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+											<ul class="more-dropdown more-with-triangle">
+												<li>
+													<a href="#">Report Profile</a>
+												</li>
+												<li>
+													<a href="#">Block Profile</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
 							</div>
 						</div>
-					</form>
-					
-					<!-- ... end Personal Account Settings Form  -->
 
-				</div>
-			</div>
-		</div>
+						<div class="control-block-button">
+							<a href="35-YourAccount-FriendsRequests.html" class="btn btn-control bg-blue">
+								<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+							</a>
 
-		<div class="col col-xl-3 order-xl-1 col-lg-3 order-lg-1 col-md-12 order-md-2 col-sm-12 col-12 responsive-display-none">
-			<div class="ui-block">
+							<a href="#" class="btn btn-control bg-purple">
+								<svg class="olymp-chat---messages-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-chat---messages-icon')?>"></use></svg>
+							</a>
 
-				<!-- Your Profile  -->
-				
-				<div class="your-profile">
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">Your PROFILE</h6>
-					</div>
-				
-					<div id="accordion" role="tablist" aria-multiselectable="true">
-						<div class="card">
-							<div class="card-header" role="tab" id="headingOne">
-								<h6 class="mb-0">
-									<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										Profile Settings
-										<svg class="olymp-dropdown-arrow-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-dropdown-arrow-icon')?>"></use></svg>
-									</a>
-								</h6>
-							</div>
-				
-							<div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-								<ul class="your-profile-menu">
+							<div class="btn btn-control bg-primary more">
+								<svg class="olymp-settings-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-settings-icon')?>"></use></svg>
+
+								<ul class="more-dropdown more-with-triangle triangle-bottom-right">
 									<li>
-										<a href="28-YourAccount-PersonalInformation.html">Personal Information</a>
+										<a href="#" data-toggle="modal" data-target="#update-header-photo">Update Profile Photo</a>
+									</li>
+									<li>
+										<a href="#" data-toggle="modal" data-target="#update-header-photo">Update Header Photo</a>
 									</li>
 									<li>
 										<a href="29-YourAccount-AccountSettings.html">Account Settings</a>
-									</li>
-									<li>
-										<a href="30-YourAccount-ChangePassword.html">Change Password</a>
-									</li>
-									<li>
-										<a href="31-YourAccount-HobbiesAndInterests.html">Hobbies and Interests</a>
-									</li>
-									<li>
-										<a href="32-YourAccount-EducationAndEmployement.html">Education and Employement</a>
 									</li>
 								</ul>
 							</div>
 						</div>
 					</div>
-				
-					<div class="ui-block-title">
-						<a href="33-YourAccount-Notifications.html" class="h6 title">Notifications</a>
-						<a href="#" class="items-round-little bg-primary">8</a>
-					</div>
-					<div class="ui-block-title">
-						<a href="34-YourAccount-ChatMessages.html" class="h6 title">Chat / Messages</a>
-					</div>
-					<div class="ui-block-title">
-						<a href="35-YourAccount-FriendsRequests.html" class="h6 title">Friend Requests</a>
-						<a href="#" class="items-round-little bg-blue">4</a>
-					</div>
-					<div class="ui-block-title ui-block-title-small">
-						<h6 class="title">FAVOURITE PAGE</h6>
-					</div>
-					<div class="ui-block-title">
-						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Create Fav Page</a>
-					</div>
-					<div class="ui-block-title">
-						<a href="36-FavPage-SettingsAndCreatePopup.html" class="h6 title">Fav Page Settings</a>
+					<div class="top-header-author">
+						<a href="02-ProfilePage.html" class="author-thumb">
+							<img src="<?php echo base_url('assets/images/author-main1.jpg')?>" alt="author">
+						</a>
+						<div class="author-content">
+							<a href="02-ProfilePage.html" class="h4 author-name">James Spiegel</a>
+							<div class="country">San Francisco, CA</div>
+						</div>
 					</div>
 				</div>
-				
-				<!-- ... end Your Profile  -->
-
 			</div>
 		</div>
 	</div>
 </div>
 
-<!-- ... end Your Account Personal Information -->
+<!-- ... end Top Header-Profile -->
+
+<div class="container">
+	<div class="row">
+		<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+			<div class="ui-block responsive-flex">
+				<div class="ui-block-title">
+					<div class="h6 title">James’s Photo Gallery</div>
+
+					<div class="block-btn align-right">
+						<a href="#" data-toggle="modal" data-target="#create-photo-album" class="btn btn-primary btn-md-2">Create Album  +</a>
+
+						<a href="#" data-toggle="modal" data-target="#update-header-photo" class="btn btn-md-2 btn-border-think custom-color c-grey">Add Photos</a>
+					</div>
+
+					<ul class="nav nav-tabs photo-gallery" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#photo-page" role="tab">
+								<svg class="olymp-photos-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-photos-icon')?>"></use></svg>
+							</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="tab" href="#album-page" role="tab">
+								<svg class="olymp-albums-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-albums-icon')?>"></use></svg>
+							</a>
+						</li>
+
+					</ul>
+					<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+			<!-- Tab panes -->
+			<div class="tab-content">
+				<div class="tab-pane" id="photo-page" role="tabpanel">
+
+					<div class="photo-album-wrapper">
+
+						
+						
+						<div class="photo-item half-width">
+							<img src="<?php echo base_url('assets/images/photo-item1.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v1" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item2.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item3.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item4.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item5.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item6.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item7.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item8.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item9.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item10.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+
+						
+						<div class="photo-item col-4-width">
+							<img src="<?php echo base_url('assets/images/photo-item11.jpg')?>" alt="photo">
+							<div class="overlay overlay-dark"></div>
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>15</span>
+							</a>
+							<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+							<div class="content">
+								<a href="#" class="h6 title">Header Photos</a>
+								<time class="published" datetime="2017-03-24T18:18">1 week ago</time>
+							</div>
+						</div>
+						
+
+						<a href="#" class="btn btn-control btn-more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+
+					</div>
+
+				</div>
+
+				<div class="tab-pane active" id="album-page" role="tabpanel">
+
+					<div class="photo-album-wrapper">
+
+						<div class="photo-album-item-wrap col-4-width" >
+							
+							<div class="photo-album-item create-album" data-mh="album-item">
+							
+								<a href="#" data-toggle="modal" data-target="#create-photo-album" class="  full-block"></a>
+							
+								<div class="content">
+							
+									<a href="#" class="btn btn-control bg-primary" data-toggle="modal" data-target="#create-photo-album">
+										<svg class="olymp-plus-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-plus-icon')?>"></use></svg>
+									</a>
+							
+									<a href="#" class="title h5" data-toggle="modal" data-target="#create-photo-album">Create an Album</a>
+									<span class="sub-title">It only takes a few minutes!</span>
+							
+								</div>
+							
+							</div>
+						</div>
+
+						<div class="photo-album-item-wrap col-4-width">
+							
+							
+							<div class="photo-album-item" data-mh="album-item">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/photo-item2.jpg')?>" alt="photo">
+									<div class="overlay overlay-dark"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="post-add-icon">
+										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+										<span>324</span>
+									</a>
+									<a href="#" data-toggle="modal" data-target="#open-photo-popup-v2" class="  full-block"></a>
+								</div>
+							
+								<div class="content">
+									<a href="#" class="title h5">South America Vacations</a>
+									<span class="sub-title">Last Added: 2 hours ago</span>
+							
+									<div class="swiper-container">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<ul class="friends-harmonic">
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic5.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic10.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic7.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic8.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic2.jpg')?>" alt="friend">
+														</a>
+													</li>
+												</ul>
+											</div>
+							
+											<div class="swiper-slide">
+												<div class="friend-count" data-swiper-parallax="-500">
+													<a href="#" class="friend-count-item">
+														<div class="h6">24</div>
+														<div class="title">Photos</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">86</div>
+														<div class="title">Comments</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">16</div>
+														<div class="title">Share</div>
+													</a>
+												</div>
+											</div>
+										</div>
+							
+										<!-- If we need pagination -->
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+
+						<div class="photo-album-item-wrap col-4-width">
+							
+							
+							<div class="photo-album-item" data-mh="album-item">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/photo-album1.jpg')?>" alt="photo">
+									<div class="overlay overlay-dark"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="post-add-icon">
+										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+										<span>324</span>
+									</a>
+							
+									<a href="#" data-toggle="modal" data-target="#open-photo-popup-v1" class="  full-block"></a>
+								</div>
+							
+								<div class="content">
+									<a href="#" class="title h5">Photoshoot Summer 2016</a>
+									<span class="sub-title">Last Added: 5 weeks ago</span>
+							
+									<div class="swiper-container" data-slide="fade">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<ul class="friends-harmonic">
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic5.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic10.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic7.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic8.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic2.jpg')?>" alt="friend">
+														</a>
+													</li>
+												</ul>
+											</div>
+							
+											<div class="swiper-slide">
+												<div class="friend-count" data-swiper-parallax="-500">
+													<a href="#" class="friend-count-item">
+														<div class="h6">24</div>
+														<div class="title">Photos</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">86</div>
+														<div class="title">Comments</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">16</div>
+														<div class="title">Share</div>
+													</a>
+												</div>
+											</div>
+										</div>
+							
+										<!-- If we need pagination -->
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+
+						<div class="photo-album-item-wrap col-4-width">
+							
+							
+							<div class="photo-album-item" data-mh="album-item">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/photo-album2.jpg')?>" alt="photo">
+									<div class="overlay overlay-dark"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="post-add-icon">
+										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+										<span>324</span>
+									</a>
+							
+									<a href="#" data-toggle="modal" data-target="#open-photo-popup-v1" class="  full-block"></a>
+								</div>
+							
+								<div class="content">
+									<a href="#" class="title h5">Amazing Street Food</a>
+									<span class="sub-title">Last Added: 6 mins ago</span>
+							
+									<div class="swiper-container" data-slide="fade">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<ul class="friends-harmonic">
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic10.jpg')?>" alt="friend">
+														</a>
+													</li>
+												</ul>
+											</div>
+							
+											<div class="swiper-slide">
+												<div class="friend-count" data-swiper-parallax="-500">
+													<a href="#" class="friend-count-item">
+														<div class="h6">24</div>
+														<div class="title">Photos</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">86</div>
+														<div class="title">Comments</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">16</div>
+														<div class="title">Share</div>
+													</a>
+												</div>
+											</div>
+										</div>
+							
+										<!-- If we need pagination -->
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+
+						<div class="photo-album-item-wrap col-4-width">
+							
+							<div class="photo-album-item" data-mh="album-item">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/photo-album3.jpg')?>" alt="photo">
+									<div class="overlay overlay-dark"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="post-add-icon">
+										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+										<span>324</span>
+									</a>
+							
+									<a href="#" data-toggle="modal" data-target="#open-photo-popup-v1" class="  full-block"></a>
+								</div>
+							
+								<div class="content">
+									<a href="#" class="title h5">Graffiti & Street Art</a>
+									<span class="sub-title">Last Added: 16 hours ago</span>
+							
+									<div class="swiper-container" data-slide="fade">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<ul class="friends-harmonic">
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic10.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic7.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic8.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic2.jpg')?>" alt="friend">
+														</a>
+													</li>
+												</ul>
+											</div>
+							
+											<div class="swiper-slide">
+												<div class="friend-count" data-swiper-parallax="-500">
+													<a href="#" class="friend-count-item">
+														<div class="h6">24</div>
+														<div class="title">Photos</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">86</div>
+														<div class="title">Comments</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">16</div>
+														<div class="title">Share</div>
+													</a>
+												</div>
+											</div>
+										</div>
+							
+										<!-- If we need pagination -->
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							
+							</div>
+							
+						</div>
+
+						<div class="photo-album-item-wrap col-4-width">
+							
+							
+							<div class="photo-album-item" data-mh="album-item">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/photo-album4.jpg')?>" alt="photo">
+									<div class="overlay overlay-dark"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="post-add-icon">
+										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+										<span>324</span>
+									</a>
+							
+									<a href="#" data-toggle="modal" data-target="#open-photo-popup-v1" class="  full-block"></a>
+								</div>
+							
+								<div class="content">
+									<a href="#" class="title h5">Amazing Landscapes</a>
+									<span class="sub-title">Last Added: 13 mins ago</span>
+							
+									<div class="swiper-container" data-slide="fade">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<ul class="friends-harmonic">
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic5.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic10.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic7.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic8.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic2.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/avatar30-sm.jpg')?>" alt="author">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/avatar29-sm.jpg')?>" alt="user">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/avatar28-sm.jpg')?>" alt="user">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/avatar27-sm.jpg')?>" alt="user">
+														</a>
+													</li>
+													<li>
+														<a href="#" class="all-users">+3</a>
+													</li>
+												</ul>
+											</div>
+							
+											<div class="swiper-slide">
+												<div class="friend-count" data-swiper-parallax="-500">
+													<a href="#" class="friend-count-item">
+														<div class="h6">24</div>
+														<div class="title">Photos</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">86</div>
+														<div class="title">Comments</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">16</div>
+														<div class="title">Share</div>
+													</a>
+												</div>
+											</div>
+										</div>
+							
+										<!-- If we need pagination -->
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+
+						<div class="photo-album-item-wrap col-4-width">
+							
+							
+							<div class="photo-album-item" data-mh="album-item">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/photo-item6.jpg')?>" alt="photo">
+									<div class="overlay overlay-dark"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="post-add-icon">
+										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+										<span>324</span>
+									</a>
+							
+									<a href="#" data-toggle="modal" data-target="#open-photo-popup-v1" class="  full-block"></a>
+								</div>
+							
+								<div class="content">
+									<a href="#" class="title h5">The Majestic Canyon</a>
+									<span class="sub-title">Last Added: 57 mins ago</span>
+							
+									<div class="swiper-container" data-slide="fade">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<ul class="friends-harmonic">
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic10.jpg')?>" alt="friend">
+														</a>
+													</li>
+												</ul>
+											</div>
+							
+											<div class="swiper-slide">
+												<div class="friend-count" data-swiper-parallax="-500">
+													<a href="#" class="friend-count-item">
+														<div class="h6">24</div>
+														<div class="title">Photos</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">86</div>
+														<div class="title">Comments</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">16</div>
+														<div class="title">Share</div>
+													</a>
+												</div>
+											</div>
+										</div>
+							
+										<!-- If we need pagination -->
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+
+						<div class="photo-album-item-wrap col-4-width">
+							
+							
+							<div class="photo-album-item" data-mh="album-item">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/photo-album5.jpg')?>" alt="photo">
+									<div class="overlay overlay-dark"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="post-add-icon">
+										<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+										<span>324</span>
+									</a>
+							
+									<a href="#" data-toggle="modal" data-target="#open-photo-popup-v1" class="  full-block"></a>
+								</div>
+							
+								<div class="content">
+									<a href="#" class="title h5">Winter 2015 Portraits</a>
+									<span class="sub-title">Last Added: 1 year ago</span>
+							
+									<div class="swiper-container" data-slide="fade">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<ul class="friends-harmonic">
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/friend-harmonic10.jpg')?>" alt="friend">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/avatar30-sm.jpg')?>" alt="author">
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															<img src="<?php echo base_url('assets/images/avatar29-sm.jpg')?>" alt="user">
+														</a>
+													</li>
+												</ul>
+											</div>
+							
+											<div class="swiper-slide">
+												<div class="friend-count" data-swiper-parallax="-500">
+													<a href="#" class="friend-count-item">
+														<div class="h6">24</div>
+														<div class="title">Photos</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">86</div>
+														<div class="title">Comments</div>
+													</a>
+													<a href="#" class="friend-count-item">
+														<div class="h6">16</div>
+														<div class="title">Share</div>
+													</a>
+												</div>
+											</div>
+										</div>
+							
+										<!-- If we need pagination -->
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+							
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- Window-popup Open Photo Popup V1 -->
+
+<div class="modal fade modal-has-swiper" id="open-photo-popup-v1" tabindex="-1" role="dialog" aria-labelledby="open-photo-popup-v1" aria-hidden="true">
+	<div class="modal-dialog window-popup open-photo-popup open-photo-popup-v1" role="document">
+		<div class="modal-content">
+			<a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+				<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+			</a>
+
+			<div class="modal-body">
+				<div class="open-photo-thumb">
+					<div class="swiper-container" data-slide="fade">
+						<div class="swiper-wrapper">
+
+							<div class="swiper-slide">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/open-photo1.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/open-photo1.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item">
+									<img src="<?php echo base_url('assets/images/open-photo1.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<!--Prev Next Arrows-->
+
+						<svg class="btn-next-without olymp-popup-right-arrow"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-popup-right-arrow')?>"></use></svg>
+
+						<svg class="btn-prev-without olymp-popup-left-arrow"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-popup-left-arrow')?>"></use></svg>
+					</div>
+				</div>
+
+				<div class="open-photo-content">
+
+					<article class="hentry post">
+
+						<div class="post__author author vcard inline-items">
+							<img src="<?php echo base_url('assets/images/author-page.jpg')?>" alt="author">
+
+							<div class="author-date">
+								<a class="h6 post__author-name fn" href="02-ProfilePage.html">James Spiegel</a>
+								<div class="post__date">
+									<time class="published" datetime="2017-03-24T18:18">
+										2 hours ago
+									</time>
+								</div>
+							</div>
+
+							<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+								<ul class="more-dropdown">
+									<li>
+										<a href="#">Edit Post</a>
+									</li>
+									<li>
+										<a href="#">Delete Post</a>
+									</li>
+									<li>
+										<a href="#">Turn Off Notifications</a>
+									</li>
+									<li>
+										<a href="#">Select as Featured</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+
+						<p>Here’s a photo from last month’s photoshoot. We really had a great time and got a batch of incredible shots for the new catalog.</p>
+
+						<p>With: <a href="#">Jessy Owen</a>, <a href="#">Marina Valentine</a></p>
+
+						<div class="post-additional-info inline-items">
+
+							<a href="#" class="post-add-icon inline-items">
+								<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+								<span>148</span>
+							</a>
+
+							<ul class="friends-harmonic">
+								<li>
+									<a href="#">
+										<img src="<?php echo base_url('assets/images/friend-harmonic7.jpg')?>" alt="friend">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="<?php echo base_url('assets/images/friend-harmonic8.jpg')?>" alt="friend">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="<?php echo base_url('assets/images/friend-harmonic9.jpg')?>" alt="friend">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="<?php echo base_url('assets/images/friend-harmonic10.jpg')?>" alt="friend">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="<?php echo base_url('assets/images/friend-harmonic11.jpg')?>" alt="friend">
+									</a>
+								</li>
+							</ul>
+
+							<div class="names-people-likes">
+								<a href="#">Diana</a>, <a href="#">Nicholas</a> and
+								<br>13 more liked this
+							</div>
+
+
+							<div class="comments-shared">
+								<a href="#" class="post-add-icon inline-items">
+									<svg class="olymp-speech-balloon-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-speech-balloon-icon')?>"></use></svg>
+									<span>61</span>
+								</a>
+
+								<a href="#" class="post-add-icon inline-items">
+									<svg class="olymp-share-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-share-icon')?>"></use></svg>
+									<span>32</span>
+								</a>
+							</div>
+
+
+						</div>
+
+						<div class="control-block-button post-control-button">
+
+							<a href="#" class="btn btn-control">
+								<svg class="olymp-like-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-like-post-icon')?>"></use></svg>
+							</a>
+
+							<a href="#" class="btn btn-control">
+								<svg class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+							</a>
+
+							<a href="#" class="btn btn-control">
+								<svg class="olymp-share-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-share-icon')?>"></use></svg>
+							</a>
+
+						</div>
+
+					</article>
+
+					<div class="mCustomScrollbar" data-mcs-theme="dark">
+
+						<ul class="comments-list">
+							<li class="comment-item">
+								<div class="post__author author vcard inline-items">
+									<img src="<?php echo base_url('assets/images/avatar48-sm.jpg')?>" alt="author">
+
+									<div class="author-date">
+										<a class="h6 post__author-name fn" href="#">Marina Valentine</a>
+										<div class="post__date">
+											<time class="published" datetime="2017-03-24T18:18">
+												46 mins ago
+											</time>
+										</div>
+									</div>
+
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+
+								</div>
+
+								<p>I had a great time too!! We should do it again!</p>
+
+								<a href="#" class="post-add-icon inline-items">
+									<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+									<span>8</span>
+								</a>
+								<a href="#" class="reply">Reply</a>
+							</li>
+
+							<li class="comment-item">
+								<div class="post__author author vcard inline-items">
+									<img src="<?php echo base_url('assets/images/avatar4-sm.jpg')?>" alt="author">
+
+									<div class="author-date">
+										<a class="h6 post__author-name fn" href="#">Chris Greyson</a>
+										<div class="post__date">
+											<time class="published" datetime="2017-03-24T18:18">
+												1 hour ago
+											</time>
+										</div>
+									</div>
+
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+
+								</div>
+
+								<p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+
+								<a href="#" class="post-add-icon inline-items">
+									<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+									<span>7</span>
+								</a>
+								<a href="#" class="reply">Reply</a>
+
+							</li>
+						</ul>
+
+					</div>
+
+					<form class="comment-form inline-items">
+
+						<div class="post__author author vcard inline-items">
+							<img src="<?php echo base_url('assets/images/author-page.jpg')?>" alt="author">
+
+							<div class="form-group with-icon-right ">
+								<textarea class="form-control" placeholder="Press Enter to post..."></textarea>
+								<div class="add-options-message">
+									<a href="#" class="options-message">
+										<svg class="olymp-camera-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-camera-icon')?>"></use></svg>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Window-popup Open Photo Popup V1 -->
+
+<!-- Window-popup Open Photo Popup V2 -->
+
+<div class="modal fade modal-has-swiper" id="open-photo-popup-v2" tabindex="-1" role="dialog" aria-labelledby="open-photo-popup-v2" aria-hidden="true">
+	<div class="modal-dialog window-popup open-photo-popup open-photo-popup-v2" role="document">
+		<div class="modal-content">
+			<a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+				<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+			</a>
+
+			<div class="modal-body">
+				<div class="open-photo-thumb">
+
+					<div class="swiper-container" data-effect="fade" data-autoplay="4000">
+
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide">
+								<div class="photo-item" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									<img src="<?php echo base_url('assets/images/open-photo2.jpg')?>" alt="photo">
+									<div class="overlay"></div>
+									<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+									<a href="#" class="tag-friends" data-toggle="tooltip" data-placement="top"   data-original-title="TAG YOUR FRIENDS">
+										<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+									</a>
+
+									<div class="content">
+										<a href="#" class="h6 title">Photoshoot 2016</a>
+										<time class="published" datetime="2017-03-24T18:18">2 weeks ago</time>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+					</div>
+
+					<!--Pagination tabs-->
+
+					<div class="slider-slides">
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs1.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs2.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs3.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs4.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs5.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs6.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs7.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs8.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+
+						<a href="#" class="slides-item ">
+							<img src="<?php echo base_url('assets/images/photo-tabs9.jpg')?>" alt="slide">
+							<div class="overlay overlay-dark"></div>
+						</a>
+
+						<!--Prev Next Arrows-->
+
+						<svg class="btn-next olymp-popup-right-arrow"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-popup-right-arrow')?>"></use></svg>
+
+						<svg class="btn-prev olymp-popup-left-arrow"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-popup-left-arrow')?>"></use></svg>
+
+					</div>
+
+				</div>
+
+				<div class="open-photo-content">
+
+			<article class="hentry post">
+
+				<div class="post__author author vcard inline-items">
+					<img src="<?php echo base_url('assets/images/author-page.jpg')?>" alt="author">
+
+					<div class="author-date">
+						<a class="h6 post__author-name fn" href="02-ProfilePage.html">James Spiegel</a>
+						<div class="post__date">
+							<time class="published" datetime="2017-03-24T18:18">
+								2 hours ago
+							</time>
+						</div>
+					</div>
+
+					<div class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+						<ul class="more-dropdown">
+							<li>
+								<a href="#">Edit Post</a>
+							</li>
+							<li>
+								<a href="#">Delete Post</a>
+							</li>
+							<li>
+								<a href="#">Turn Off Notifications</a>
+							</li>
+							<li>
+								<a href="#">Select as Featured</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+
+				<p>Here’s a photo from last month’s photoshoot. We really had a great time and got a batch of incredible shots for the new catalog.</p>
+
+				<p>With: <a href="#">Jessy Owen</a>, <a href="#">Marina Valentine</a></p>
+
+				<div class="post-additional-info inline-items">
+
+					<a href="#" class="post-add-icon inline-items">
+						<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+						<span>148</span>
+					</a>
+
+
+					<div class="comments-shared">
+						<a href="#" class="post-add-icon inline-items">
+							<svg class="olymp-speech-balloon-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-speech-balloon-icon')?>"></use></svg>
+							<span>61</span>
+						</a>
+
+						<a href="#" class="post-add-icon inline-items">
+							<svg class="olymp-share-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-share-icon')?>"></use></svg>
+							<span>32</span>
+						</a>
+					</div>
+
+
+				</div>
+
+				<div class="control-block-button post-control-button">
+
+					<a href="#" class="btn btn-control">
+						<svg class="olymp-like-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-like-post-icon')?>"></use></svg>
+					</a>
+
+					<a href="#" class="btn btn-control">
+						<svg class="olymp-comments-post-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-comments-post-icon')?>"></use></svg>
+					</a>
+
+					<a href="#" class="btn btn-control">
+						<svg class="olymp-share-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-share-icon')?>"></use></svg>
+					</a>
+
+				</div>
+
+			</article>
+
+			<div class="mCustomScrollbar" data-mcs-theme="dark">
+
+				<ul class="comments-list">
+					<li class="comment-item">
+						<div class="post__author author vcard inline-items">
+							<img src="<?php echo base_url('assets/images/avatar48-sm.jpg')?>" alt="author">
+
+							<div class="author-date">
+								<a class="h6 post__author-name fn" href="#">Marina Valentine</a>
+								<div class="post__date">
+									<time class="published" datetime="2017-03-24T18:18">
+										46 mins ago
+									</time>
+								</div>
+							</div>
+
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+
+						</div>
+
+						<p>I had a great time too!! We should do it again!</p>
+
+						<a href="#" class="post-add-icon inline-items">
+							<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+							<span>8</span>
+						</a>
+						<a href="#" class="reply">Reply</a>
+					</li>
+
+					<li class="comment-item">
+						<div class="post__author author vcard inline-items">
+							<img src="<?php echo base_url('assets/images/avatar4-sm.jpg')?>" alt="author">
+
+							<div class="author-date">
+								<a class="h6 post__author-name fn" href="#">Chris Greyson</a>
+								<div class="post__date">
+									<time class="published" datetime="2017-03-24T18:18">
+										1 hour ago
+									</time>
+								</div>
+							</div>
+
+							<a href="#" class="more"><svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg></a>
+
+						</div>
+
+						<p>Dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+
+						<a href="#" class="post-add-icon inline-items">
+							<svg class="olymp-heart-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-heart-icon')?>"></use></svg>
+							<span>7</span>
+						</a>
+						<a href="#" class="reply">Reply</a>
+
+					</li>
+				</ul>
+
+			</div>
+
+			<form class="comment-form inline-items">
+
+				<div class="post__author author vcard inline-items">
+					<img src="<?php echo base_url('assets/images/avatar73-sm.jpg')?>" alt="author">
+					<div class="form-group with-icon-right ">
+						<textarea class="form-control" placeholder="Press Enter to post..." ></textarea>
+						<div class="add-options-message">
+							<a href="#" class="options-message">
+								<svg class="olymp-camera-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-camera-icon')?>"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</form>
+
+		</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Window-popup Open Photo Popup V2 -->
+<!-- Window-popup Create Photo Album -->
+
+<div class="modal fade" id="create-photo-album" tabindex="-1" role="dialog" aria-labelledby="create-photo-album" aria-hidden="true">
+	<div class="modal-dialog window-popup create-photo-album" role="document">
+		<div class="modal-content">
+			<a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+				<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+			</a>
+
+			<div class="modal-header">
+				<h6 class="title">Create Photo Album</h6>
+			</div>
+
+			<div class="modal-body">
+
+			<form class="form-group label-floating">
+				<label class="control-label">Album Name</label>
+				<input class="form-control" placeholder="" type="text" value="Rock Garden Festival - Day 4">
+			</form>
+
+			<div class="photo-album-wrapper">
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item create-album" data-mh="album-item">
+						<div class="content">
+							<a href="#" class="btn btn-control bg-primary">
+								<svg class="olymp-plus-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-plus-icon')?>"></use></svg>
+							</a>
+
+							<a href="#" class="title h5">Add More Photos...</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="<?php echo base_url('assets/images/photo-album6.jpg')?>" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="<?php echo base_url('assets/images/avatar52-sm.jpg')?>" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>Green Goo Rock
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar74-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>Mathilda Brinker
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar48-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>Marina Valentine
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar75-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>Dave Marinara
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar76-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>Rachel Howlett
+								</option>
+
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="<?php echo base_url('assets/images/photo-album7.jpg')?>" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="<?php echo base_url('assets/images/avatar52-sm.jpg')?>" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>Green Goo Rock
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar74-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>Mathilda Brinker
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar48-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>Marina Valentine
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar75-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>Dave Marinara
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar76-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>Rachel Howlett
+								</option>
+
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="<?php echo base_url('assets/images/photo-album8.jpg')?>" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="<?php echo base_url('assets/images/avatar52-sm.jpg')?>" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>Green Goo Rock
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar74-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>Mathilda Brinker
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar48-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>Marina Valentine
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar75-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>Dave Marinara
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar76-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>Rachel Howlett
+								</option>
+
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="<?php echo base_url('assets/images/photo-album9.jpg')?>" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="<?php echo base_url('assets/images/avatar52-sm.jpg')?>" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+										</div>'>Green Goo Rock
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar74-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>Mathilda Brinker
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar48-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>Marina Valentine
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar75-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>Dave Marinara
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar76-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>Rachel Howlett
+								</option>
+
+							</select>
+						</form>
+					</div>
+				</div>
+
+				<div class="photo-album-item-wrap col-3-width" >
+					<div class="photo-album-item" data-mh="album-item">
+						<div class="form-group">
+							<img src="<?php echo base_url('assets/images/photo-album10.jpg')?>" alt="photo">
+							<textarea class="form-control" placeholder="Write something about this photo..."></textarea>
+						</div>
+
+						<form class="form-group label-floating is-select">
+							<svg class="olymp-happy-face-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-face-icon')?>"></use></svg>
+
+							<select class="selectpicker form-control style-2 show-tick" multiple data-max-options="2" data-live-search="true">
+								<option title="Green Goo Rock" data-content='<div class="inline-items">
+										<div class="author-thumb">
+											<img src="<?php echo base_url('assets/images/avatar52-sm.jpg')?>" alt="author">
+										</div>
+											<div class="h6 author-title">Green Goo Rock</div>
+
+										</div>'>Green Goo Rock
+								</option>
+
+								<option title="Mathilda Brinker" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar74-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Mathilda Brinker</div>
+										</div>'>Mathilda Brinker
+								</option>
+
+								<option title="Marina Valentine" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar48-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Marina Valentine</div>
+										</div>'>Marina Valentine
+								</option>
+
+								<option title="Dave Marinara" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar75-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Dave Marinara</div>
+										</div>'>Dave Marinara
+								</option>
+
+								<option title="Rachel Howlett" data-content='<div class="inline-items">
+											<div class="author-thumb">
+												<img src="<?php echo base_url('assets/images/avatar76-sm.jpg')?>" alt="author">
+											</div>
+											<div class="h6 author-title">Rachel Howlett</div>
+										</div>'>Rachel Howlett
+								</option>
+
+							</select>
+						</form>
+
+					</div>
+				</div>
+			</div>
+
+			<a href="#" class="btn btn-secondary btn-lg btn--half-width">Discard Everything</a>
+			<a href="#" class="btn btn-primary btn-lg btn--half-width">Post Album</a>
+
+		</div>
+		</div>
+	</div>
+</div>
+
+<!-- ... end Window-popup Create Photo Album -->
+<!-- Window-popup Update Header Photo -->
+
+<div class="modal fade" id="update-header-photo" tabindex="-1" role="dialog" aria-labelledby="update-header-photo" aria-hidden="true">
+	<div class="modal-dialog window-popup update-header-photo" role="document">
+		<div class="modal-content">
+			<a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+				<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+			</a>
+
+			<div class="modal-header">
+				<h6 class="title">Update Header Photo</h6>
+			</div>
+
+			<div class="modal-body">
+				<a href="#" class="upload-photo-item">
+				<svg class="olymp-computer-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-computer-icon')?>"></use></svg>
+
+				<h6>Upload Photo</h6>
+				<span>Browse your computer.</span>
+			</a>
+
+				<a href="#" class="upload-photo-item" data-toggle="modal" data-target="#choose-from-my-photo">
+
+			<svg class="olymp-photos-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-photos-icon')?>"></use></svg>
+
+			<h6>Choose from My Photos</h6>
+			<span>Choose from your uploaded photos</span>
+		</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- ... end Window-popup Update Header Photo -->
+
+<!-- Window-popup Choose from my Photo -->
+
+<div class="modal fade" id="choose-from-my-photo" tabindex="-1" role="dialog" aria-labelledby="choose-from-my-photo" aria-hidden="true">
+	<div class="modal-dialog window-popup choose-from-my-photo" role="document">
+
+		<div class="modal-content">
+			<a href="#" class="close icon-close" data-dismiss="modal" aria-label="Close">
+				<svg class="olymp-close-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-close-icon')?>"></use></svg>
+			</a>
+			<div class="modal-header">
+				<h6 class="title">Choose from My Photos</h6>
+
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-expanded="true">
+							<svg class="olymp-photos-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-photos-icon')?>"></use></svg>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-expanded="false">
+							<svg class="olymp-albums-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-albums-icon')?>"></use></svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="modal-body">
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="home" role="tabpanel" aria-expanded="true">
+
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo1.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo2.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo3.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo4.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo5.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo6.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo7.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo8.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<div class="radio">
+								<label class="custom-radio">
+									<img src="<?php echo base_url('assets/images/choose-photo9.jpg')?>" alt="photo">
+									<input type="radio" name="optionsRadios">
+								</label>
+							</div>
+						</div>
+
+
+						<a href="#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
+						<a href="#" class="btn btn-primary btn-lg btn--half-width">Confirm Photo</a>
+
+					</div>
+					<div class="tab-pane" id="profile" role="tabpanel" aria-expanded="false">
+
+						<div class="choose-photo-item" data-mh="choose-item">
+							<figure>
+								<img src="<?php echo base_url('assets/images/choose-photo10.jpg')?>" alt="photo">
+								<figcaption>
+									<a href="#">South America Vacations</a>
+									<span>Last Added: 2 hours ago</span>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<figure>
+								<img src="<?php echo base_url('assets/images/choose-photo11.jpg')?>" alt="photo">
+								<figcaption>
+									<a href="#">Photoshoot Summer 2016</a>
+									<span>Last Added: 5 weeks ago</span>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<figure>
+								<img src="<?php echo base_url('assets/images/choose-photo12.jpg')?>" alt="photo">
+								<figcaption>
+									<a href="#">Amazing Street Food</a>
+									<span>Last Added: 6 mins ago</span>
+								</figcaption>
+							</figure>
+						</div>
+
+						<div class="choose-photo-item" data-mh="choose-item">
+							<figure>
+								<img src="<?php echo base_url('assets/images/choose-photo13.jpg')?>" alt="photo">
+								<figcaption>
+									<a href="#">Graffity & Street Art</a>
+									<span>Last Added: 16 hours ago</span>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<figure>
+								<img src="<?php echo base_url('assets/images/choose-photo14.jpg')?>" alt="photo">
+								<figcaption>
+									<a href="#">Amazing Landscapes</a>
+									<span>Last Added: 13 mins ago</span>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="choose-photo-item" data-mh="choose-item">
+							<figure>
+								<img src="<?php echo base_url('assets/images/choose-photo15.jpg')?>" alt="photo">
+								<figcaption>
+									<a href="#">The Majestic Canyon</a>
+									<span>Last Added: 57 mins ago</span>
+								</figcaption>
+							</figure>
+						</div>
+
+
+						<a href="#" class="btn btn-secondary btn-lg btn--half-width">Cancel</a>
+						<a href="#" class="btn btn-primary btn-lg disabled btn--half-width">Confirm Photo</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+<!-- ... end Window-popup Choose from my Photo -->
+
+
+<a class="back-to-top" href="#">
+	<img src="<?php echo base_url('assets/svg-icons/back-to-top.svg')?>" alt="arrow" class="back-icon">
+</a>
 
 
 
@@ -2354,7 +4231,7 @@
 			<span class="icon-status online"></span>
 			<h6 class="title" >Chat</h6>
 			<div class="more">
-				<svg class="olymp-three-dots-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
+				<svg class="olymp-three-dots-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-three-dots-icon')?>"></use></svg>
 				<svg class="olymp-little-delete js-chat-open"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-little-delete')?>"></use></svg>
 			</div>
 		</div>
@@ -2401,11 +4278,11 @@
 			<textarea class="form-control" placeholder=""></textarea>
 			<div class="add-options-message">
 				<a href="#" class="options-message">
-					<svg class="olymp-computer-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-computer-icon')?>"></use></svg>
+					<svg class="olymp-computer-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-computer-icon')?>"></use></svg>
 				</a>
 				<div class="options-message smile-block">
 
-					<svg class="olymp-happy-sticker-icon')?>"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-sticker-icon')?>"></use></svg>
+					<svg class="olymp-happy-sticker-icon"><use xlink:href="<?php echo base_url('assets/svg-icons/sprites/icons.svg#olymp-happy-sticker-icon')?>"></use></svg>
 
 					<ul class="more-dropdown more-with-triangle triangle-bottom-right">
 						<li>
