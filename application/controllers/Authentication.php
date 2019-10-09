@@ -15,21 +15,21 @@ Class Authentication extends CI_Controller {
 		$this->load->library('form_validation');
 
 		// Load model
-		//$this->load->model('Usuarios_model');
+		$this->load->model('Usuarios_model');
 		
 	}
 
 	public function index()
 	{
 		
-		$this->Login();
+		$this->login();
 	}
 
 	public function register()
 	{
 		// Verifica se já exite um usuário logado e redireciona para dashboard
 		if ($this->session->userdata('logged') > 0) {
-			redirect(base_url('admin/dashboard'));
+			redirect(base_url('dashboard'));
 		}
 
 		// Validation form
@@ -84,37 +84,37 @@ Class Authentication extends CI_Controller {
 		}
 		$this->load->view('admin/page-register');
 	}
-
-	public function Login()
+        
+        /* Verifica dados de login e senha */
+	public function login()
 	{
 		
 		// Verifica se já exite um usuário logado e redireciona para dashboard
 		if ($this->session->userdata('logged') > 0) {
-			redirect(base_url('admin/dashboard'));
+			redirect(base_url('profile'));
 		}
 		// Validation form
 		$this->form_validation->set_rules('email', 'Email', 'trim|required|min_length[10]|valid_email');
-		$this->form_validation->set_rules('senha', 'Senha', 'trim|required|min_length[3]', 'O campo Senha deve ter no mínimo 6 caracteres.');
+		$this->form_validation->set_rules('senha', 'Senha', 'trim|required|min_length[3]', 'O campo Senha deve ter no mínimo 3 caracteres.');
 		
 		if ($this->form_validation->run() == FALSE) {
 			$data['error'] = validation_errors();
 			$this->session->set_flashdata($data);
 		} else {
-			$data = array(
-				'email' => $this->input->post('email'), 
-				'senha' => $this->input->post('senha')
-			);
-			$result = $this->Usuarios_model->Login($data);
-			if ($result) {
-				$this->session->set_userdata('logged', true);
-				$this->session->set_userdata('userID', $result->id);
-				redirect(base_url('admin/dashboard'));
-			} else {
-				$data['error'] = 'Usuários ou senha incorretos!';							
-				$this->session->set_userdata($data['error']);	
-			}
+                    $data = array(
+                            'email' => $this->input->post('email'), 
+                            'senha' => $this->input->post('senha')
+                    );
+                    $result = $this->Usuarios_model->login($data);
+                    if ($result) {
+                        $this->session->set_userdata('logged', true);
+                        $this->session->set_userdata('userID', $result->id);
+                        redirect(base_url('profile'));
+                    } else {
+                            $data['error'] = 'Usuários ou senha incorretos!';							
+                            $this->session->set_userdata($data['error']);	
+                    }
 		}
-
 		
 		$this->load->view('authentication/index');
 	}

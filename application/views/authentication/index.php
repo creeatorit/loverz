@@ -312,7 +312,7 @@
 			
 					<div class="tab-pane" id="profile" role="tabpanel" data-mh="log-tab">
 						<div class="title h6">Login do Padrinho</div>
-						<form class="content" action="includes/login" method="POST"> 
+						<form class="content" action="<?php echo base_url(); ?>" method="POST"> 
 							<div class="row">
 								<div class="col col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 									<div class="form-group label-floating">
