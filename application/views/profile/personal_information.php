@@ -1703,7 +1703,7 @@
 					
 					<!-- Personal Information Form  -->
 					
-					<form method="POST" action="<?php echo base_url();?>">
+					<form method="POST" action="">
 						<div class="row">
 					
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
