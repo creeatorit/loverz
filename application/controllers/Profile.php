@@ -18,8 +18,12 @@ Class Profile extends MY_Controller {
     * @return view
     */
    public function index() {
-     
-    	$this->load->view('profile/index');
+        
+        $user = new Usuario();
+        $user->setNome("Rafael");
+        //$data['usuario'] = $user->buscar($this->session->userdata('userID'));
+        $data['usuario'] = $user;
+        $this->load->view('profile/index', $data);
     }
     
     public function setting() {

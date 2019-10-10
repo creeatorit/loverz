@@ -1755,7 +1755,7 @@
 							<img src="<?php echo base_url('assets/images/author-main1.jpg')?>" alt="author">
 						</a>
 						<div class="author-content">
-							<a href="02-ProfilePage.html" class="h4 author-name">James Spiegel</a>
+							<a href="02-ProfilePage.html" class="h4 author-name"><?php echo $usuario->getNome(); ?></a>
 							<div class="country">San Francisco, CA</div>
 						</div>
 					</div>
@@ -1764,7 +1764,6 @@
 		</div>
 	</div>
 </div>
-
 <!-- ... end Top Header-Profile -->
 <div class="container">
 	<div class="row">
@@ -1783,7 +1782,7 @@
 								<img src="<?php echo base_url('assets/images/author-page.jpg')?>" alt="author">
 					
 								<div class="author-date">
-									<a class="h6 post__author-name fn" href="02-ProfilePage.html">James Spiegel</a>
+									<a class="h6 post__author-name fn" href="02-ProfilePage.html"><?php echo $usuario->getNome(); ?></a>
 									<div class="post__date">
 										<time class="published" datetime="2017-03-24T18:18">
 											19 hours ago

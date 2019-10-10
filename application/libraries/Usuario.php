@@ -38,6 +38,7 @@ class Usuario {
        
     }
     
+        
     function getId() {
         return $this->id;
     }

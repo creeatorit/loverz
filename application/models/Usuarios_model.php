@@ -40,5 +40,12 @@ class Usuarios_model extends CI_Model {
             }
             return false;
         }
+        
+        
+        public function inserir() {
+           $this->db->set('nome', $this->input->post('nome'));
+           $this->db->set('email', $this->session->userdata('email'));
+           $this->db->insert('usuario');
+        }
 }
 
