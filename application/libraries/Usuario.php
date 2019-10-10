@@ -17,6 +17,7 @@ class Usuario {
     private $profissao;
     private $nivel;
     private $website;
+    private $cod_confirmacao;
 
 
     protected $CI;
@@ -104,6 +105,10 @@ class Usuario {
     function getWebsite() {
         return $this->website;
     }
+    
+    function getCodConfirmacao() {
+        return $this->cod_confirmacao;
+    }
 
     function setId($id) {
         $this->id = $id;
@@ -161,7 +166,7 @@ class Usuario {
     }
 
     function setSenha($senha) {
-        $this->senha = $senha;
+        $this->senha = md5($senha);
         $this->CI->db->set('senha', $this->senha);
     }
 
@@ -189,7 +194,11 @@ class Usuario {
         $this->website = $website;
         $this->CI->db->set('website', $this->website);
     }
-
+    
+    function setCodConfirmacao($codigo) {
+        $this->cod_confirmacao = $codigo;
+        $this->CI->db->set('cod_confirmacao', $this->cod_confirmacao);
+    }
 
 
     

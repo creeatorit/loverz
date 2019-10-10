@@ -10,6 +10,7 @@ Class Authentication extends CI_Controller {
 
 		// Load model
 		$this->load->model('Usuarios_model');
+                $this->load->library('usuario');
 		
 	}
 
@@ -40,6 +41,18 @@ Class Authentication extends CI_Controller {
 				exit(json_encode($json_response));
 			}
 		} else {
+                    $user = new Usuario();
+                    $user->setNome($this->input->post('nome'));
+                    $user->setSobrenome($this->input->post('sobrenome'));
+                    $user->setEmail($this->input->post('email'));
+                    $user->setSenha($this->input->post('senha'));
+                    $user->setCodConfirmacao(md5(rand(999,9999)));
+                    $user->salvar();
+                    
+                    redirect(base_url('account-activation'));
+                    
+                    
+                    /*
 			// Verifica se o e-mail enviado, já consta no banco de dados
 			$data = array(
 				'nome' => $this->input->post('nome'),
@@ -76,7 +89,7 @@ Class Authentication extends CI_Controller {
 			}
 			// Transforma o resultado em json para pegar no jquery
 			echo json_encode($swal);
-			exit;
+			exit;*/
 			
 		}
 		$this->load->view('admin/page-register');
@@ -116,9 +129,34 @@ Class Authentication extends CI_Controller {
 		$this->load->view('authentication/index');
 	}
 
-	public function Logout()
-	{
+	public function logout() {
 		$this->session->unset_userdata('logged');
-		redirect(base_url('profile'));
+		redirect(base_url());
 	}
+        
+        /* Método para novos usuários ativar sua conta */
+        public function account_activation() {
+            
+            // Validation form
+            $this->form_validation->set_rules('codigo', 'Codigo confirmação', 'trim|required');
+            
+            if ($this->form_validation->run() == FALSE) {
+                if($this->form_validation->error_array() > null) {
+                    $data['formErrors'] = $this->form_validation->error_array();
+                }
+            } else {
+                
+                if ($result = $this->Usuarios_model->confirma_codigo($this->input->post('codigo'))) {
+                    // Conta ativada com sucesso                                        
+                    $this->session->set_userdata('logged', true);
+                    $this->session->set_userdata('userID', $result->id);
+                    redirect(base_url('profile'));
+                } else {
+                    $data['formErrors'] = array('Código expirado ou inválido, tente novamente!');
+                }
+                
+            }
+            
+            $this->load->view('authentication/account_activation', $data = array());
+        }
 }

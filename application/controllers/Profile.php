@@ -57,6 +57,7 @@ Class Profile extends MY_Controller {
             $usuario->setProfissao($this->input->post('profissao'));
             $usuario->setSexo($this->input->post('sexo'));
             $usuario->salvar();
+            redirect(base_url());
         }
         
         $this->load->view('profile/personal_information', $data);

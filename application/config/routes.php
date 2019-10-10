@@ -56,3 +56,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['logout'] = 'Authentication/logout';
 $route['profile/personal-information'] = 'Profile/personal_information';
 $route['register'] = 'Authentication/register';
+$route['account-activation'] = 'Authentication/account_activation';

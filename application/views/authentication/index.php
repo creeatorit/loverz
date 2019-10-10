@@ -266,32 +266,37 @@
 								<div class="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
 									<div class="form-group label-floating">
 										<label class="control-label">First Name</label>
-										<input class="form-control" placeholder="" type="text">
+                                                                                <input class="form-control" placeholder="" type="text" maxlength="50" name="nome" required="required" />
 									</div>
 								</div>
 								<div class="col col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12">
 									<div class="form-group label-floating">
 										<label class="control-label">Last Name</label>
-										<input class="form-control" placeholder="" type="text">
+                                                                                <input class="form-control" placeholder="" type="text" maxlength="50" name="sobrenome" required="required" />
 									</div>
 								</div>
 								
 								<div class="col col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
 									<div class="form-group label-floating">
 										<label class="control-label">E-mail</label>
-										<input class="form-control" placeholder="" id="email" name="email" type="email" required>
+                                                                                <input class="form-control" placeholder="" id="email" name="email" maxlength="100" type="email" required="required" />
 									</div>
 									<div class="form-group label-floating">
 										<label class="control-label">Senha</label>
-										<input class="form-control" placeholder="" id="senha" name="senha" type="password" required>
+                                                                                <input class="form-control" placeholder="" id="senha" name="senha" type="password" maxlength="32" required="required" />
 									</div>
 			
 									<div class="form-group label-floating is-select">
 										<label class="control-label">Tipo</label>
-										<select class="form-control" id="tipo" name="tipo" required>
-											<option></option>
-											<option value="1">CASAL</option>
-											<option value="2">SOLTEIRO</option>
+										<select class="form-control" id="tipo" name="estado_civil">
+											<option disabled selected>Selecione</option>
+                                                                                        <option value="Solteiro (a)">Solteiro (a)</option>
+                                                                                        <option value="Casado (a)">Casado (a)</option>
+                                                                                        <option value="Viúvo (a)">Viúvo (a)</option>
+                                                                                        <option value="Separado (a)">Separado (a)</option>
+                                                                                        <option value="Divorciado (a)">Divorciado (a)</option>
+                                                                                        <option value="União Estável">União Estável</option>
+                                                                                        <option value="Outro">Outro</option>
 										</select>
 									</div>
 			
