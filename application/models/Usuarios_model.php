@@ -3,7 +3,7 @@ if(!defined('BASEPATH')) exit('No direct script access allowed');
 
 class Usuarios_model extends CI_Model {
 	
-	public $table = 'usuarios';
+	public $table = 'usuario';
         
 	function __construct() 	{
 		parent::__construct();

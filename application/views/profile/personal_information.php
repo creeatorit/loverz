@@ -1773,14 +1773,14 @@
 							<div class="col col-lg-6 col-md-6 col-sm-12 col-12">
 								<div class="form-group label-floating">
 									<label class="control-label">Write a little description about you</label>
-									<textarea class="form-control" placeholder="Fale um pouco sobre você..."><?php echo $user->sobre; ?></textarea>
+									<textarea class="form-control"><?php echo $user->sobre; ?></textarea>
 								</div>
 					
 								<div class="form-group label-floating is-select">
 									<label class="control-label">Your Gender</label>
 									<select class="selectpicker form-control">
-										<option value="MA" <?php echo $user->sexo == "MA" ? "selected":""; ?>>Masculino</option>
-										<option value="FE" <?php echo $user->sexo == "FE" ? "selected":""; ?>>Feminino</option>
+										<option value="M" <?php echo $user->sexo == "M" ? "selected":""; ?>>Masculino</option>
+										<option value="F" <?php echo $user->sexo == "F" ? "selected":""; ?>>Feminino</option>
 									</select>
 								</div>
 					

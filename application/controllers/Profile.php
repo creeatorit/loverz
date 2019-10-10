@@ -10,7 +10,7 @@ Class Profile extends MY_Controller {
       
       // Load model
       $this->load->model('Usuarios_model');
-      $this->load->library('usuarios');
+      $this->load->library('usuario');
    }
 
    /**
@@ -42,12 +42,11 @@ Class Profile extends MY_Controller {
         if ($this->form_validation->run() == FALSE) {
             // Se exitir algum erro de validação, transforma em json para recuperar no jquery
             if($this->form_validation->error_array() > null) {
-                    $json_response['formErrors'] = $this->form_validation->error_array();
-                    exit(json_encode($json_response));
+                $data['formErrors'] = $this->form_validation->error_array();
             }
         } else {
-            print_r($this->input->post());
-            $usuario = new Usuarios;            
+            $usuario = new Usuario;   
+            $usuario->setId($this->session->userdata('userID'));
             $usuario->setNome($this->input->post('nome'));
             $usuario->setSobrenome($this->input->post('sobrenome'));
             $usuario->setEmail($this->input->post('email'));
@@ -57,13 +56,9 @@ Class Profile extends MY_Controller {
             $usuario->setSobre($this->input->post('sobre'));
             $usuario->setProfissao($this->input->post('profissao'));
             $usuario->setSexo($this->input->post('sexo'));
-            
-            $this->db->insert('usuarios', $usuario);
-            
-            
+            $usuario->salvar();
         }
         
-        $data['user'] = $this->Usuarios_model->get($this->session->userdata('userID'));
         $this->load->view('profile/personal_information', $data);
         
     }

@@ -5,6 +5,7 @@ class Usuarios {
     
     private $table = 'usuarios';
     
+    private $id;
     private $nome;
     private $sobrenome;
     private $email;
@@ -16,7 +17,7 @@ class Usuarios {
     private $sexo;
     
     function getNome() {
-        return $this->nome;
+        return "teste";
     }
 
     function getSobrenome() {
